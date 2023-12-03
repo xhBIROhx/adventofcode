@@ -1,0 +1,3814 @@
+to parse: .16
+to parse: *16
+to parse: *30
+to parse: .42
+to parse: .92
+to parse: .69
+to parse: .10
+to parse: .38
+to parse: .39
+to parse: .25
+to parse: -51
+testing Number { line: 0, index: 2, size: 3, value: 224 }
+testing part: .224. ❌
+testing part: ...*. ✅
+testing Number { line: 0, index: 10, size: 3, value: 487 }
+testing part: .487. ❌
+testing part: ..... ❌
+testing Number { line: 0, index: 32, size: 3, value: 718 }
+testing part: .718. ❌
+testing part: ....* ✅
+testing Number { line: 0, index: 56, size: 3, value: 378 }
+testing part: .378. ❌
+testing part: .*... ✅
+testing Number { line: 0, index: 103, size: 3, value: 284 }
+testing part: .284. ❌
+testing part: ....* ✅
+testing Number { line: 0, index: 114, size: 3, value: 310 }
+testing part: .310. ❌
+testing part: .*... ✅
+testing Number { line: 0, index: 123, size: 3, value: 313 }
+testing part: .313. ❌
+testing part: ..+.. ✅
+testing Number { line: 0, index: 136, size: 3, value: 311 }
+testing part: .311. ❌
+testing part: ..... ❌
+testing Number { line: 1, index: 36, size: 3, value: 744 }
+testing part: ..... ❌
+testing part: *744. ✅
+testing Number { line: 1, index: 43, size: 3, value: 486 }
+testing part: ..... ❌
+testing part: .486* ✅
+testing Number { line: 1, index: 47, size: 3, value: 485 }
+testing part: ..... ❌
+testing part: *485. ✅
+testing Number { line: 1, index: 63, size: 3, value: 741 }
+testing part: ..... ❌
+testing part: .741. ❌
+testing part: *.... ✅
+testing Number { line: 1, index: 76, size: 3, value: 359 }
+testing part: ..... ❌
+testing part: .359. ❌
+testing part: ..*.. ✅
+testing Number { line: 1, index: 81, size: 3, value: 666 }
+testing part: ..... ❌
+testing part: #666. ✅
+testing Number { line: 1, index: 87, size: 3, value: 439 }
+testing part: ..... ❌
+testing part: .439. ❌
+testing part: ..*.. ✅
+testing Number { line: 1, index: 107, size: 3, value: 925 }
+testing part: ..... ❌
+testing part: *925. ✅
+testing Number { line: 2, index: 1, size: 3, value: 235 }
+testing part: ....* ✅
+testing Number { line: 2, index: 20, size: 3, value: 758 }
+testing part: ..... ❌
+testing part: .758. ❌
+testing part: ..... ❌
+testing Number { line: 2, index: 25, size: 3, value: 440 }
+testing part: ..... ❌
+testing part: .440. ❌
+testing part: ...+. ✅
+testing Number { line: 2, index: 55, size: 3, value: 251 }
+testing part: ..*.. ✅
+testing Number { line: 2, index: 69, size: 3, value: 262 }
+testing part: ....@ ✅
+testing Number { line: 2, index: 111, size: 3, value: 752 }
+testing part: ....* ✅
+testing Number { line: 2, index: 120, size: 3, value: 774 }
+testing part: ..$.. ✅
+testing Number { line: 2, index: 130, size: 3, value: 515 }
+testing part: ....@ ✅
+testing Number { line: 3, index: 9, size: 3, value: 705 }
+testing part: ..... ❌
+testing part: .705% ✅
+testing Number { line: 3, index: 16, size: 3, value: 746 }
+testing part: ..... ❌
+testing part: @746. ✅
+testing Number { line: 3, index: 30, size: 3, value: 942 }
+testing part: ..... ❌
+testing part: .942* ✅
+testing Number { line: 3, index: 34, size: 3, value: 591 }
+testing part: ..... ❌
+testing part: *591. ✅
+testing Number { line: 3, index: 38, size: 3, value: 347 }
+testing part: ..... ❌
+testing part: .347. ❌
+testing part: ..*.. ✅
+testing Number { line: 3, index: 42, size: 3, value: 470 }
+testing part: ..... ❌
+testing part: .470. ❌
+testing part: ../.. ✅
+testing Number { line: 3, index: 51, size: 3, value: 257 }
+testing part: ..... ❌
+testing part: .257. ❌
+testing part: ....* ✅
+testing Number { line: 3, index: 63, size: 3, value: 637 }
+testing part: *.... ✅
+testing Number { line: 3, index: 77, size: 3, value: 793 }
+testing part: .*... ✅
+testing Number { line: 3, index: 87, size: 3, value: 299 }
+testing part: ..*.. ✅
+testing Number { line: 3, index: 100, size: 3, value: 813 }
+testing part: ..... ❌
+testing part: .813. ❌
+testing part: .*... ✅
+testing Number { line: 3, index: 107, size: 3, value: 509 }
+testing part: ..... ❌
+testing part: .509. ❌
+testing part: ...*. ✅
+testing Number { line: 3, index: 116, size: 3, value: 464 }
+testing part: ..... ❌
+testing part: .464. ❌
+testing part: ..... ❌
+testing Number { line: 3, index: 135, size: 3, value: 688 }
+testing part: ..... ❌
+testing part: .688. ❌
+testing part: ..*.. ✅
+testing Number { line: 4, index: 5, size: 2, value: 82 }
+testing part: .... ❌
+testing part: .82. ❌
+testing part: ...* ✅
+testing Number { line: 4, index: 46, size: 3, value: 901 }
+testing part: ...#. ✅
+testing Number { line: 4, index: 73, size: 3, value: 836 }
+testing part: ..... ❌
+testing part: .836. ❌
+testing part: ..... ❌
+testing Number { line: 4, index: 94, size: 3, value: 814 }
+testing part: ./... ✅
+testing Number { line: 4, index: 124, size: 2, value: 80 }
+testing part: ..&. ✅
+testing Number { line: 4, index: 129, size: 2, value: 17 }
+testing part: .... ❌
+testing part: .17* ✅
+testing Number { line: 5, index: 11, size: 3, value: 679 }
+testing part: ..... ❌
+testing part: .679. ❌
+testing part: #.... ✅
+testing Number { line: 5, index: 15, size: 3, value: 661 }
+testing part: ..... ❌
+testing part: .661. ❌
+testing part: ...*. ✅
+testing Number { line: 5, index: 23, size: 3, value: 299 }
+testing part: ..... ❌
+testing part: .299. ❌
+testing part: ..... ❌
+testing Number { line: 5, index: 37, size: 3, value: 222 }
+testing part: ...*. ✅
+testing Number { line: 5, index: 53, size: 3, value: 875 }
+testing part: ..*.. ✅
+testing Number { line: 5, index: 61, size: 3, value: 213 }
+testing part: ..... ❌
+testing part: .213. ❌
+testing part: *.... ✅
+testing Number { line: 5, index: 67, size: 3, value: 161 }
+testing part: ..... ❌
+testing part: .161. ❌
+testing part: ...@. ✅
+testing Number { line: 5, index: 82, size: 3, value: 964 }
+testing part: &.... ✅
+testing Number { line: 5, index: 88, size: 3, value: 894 }
+testing part: ..... ❌
+testing part: .894. ❌
+testing part: ..... ❌
+testing Number { line: 5, index: 100, size: 3, value: 998 }
+testing part: .*... ✅
+testing Number { line: 5, index: 108, size: 3, value: 310 }
+testing part: ..*.. ✅
+testing Number { line: 5, index: 115, size: 3, value: 258 }
+testing part: ..... ❌
+testing part: .258. ❌
+testing part: ....* ✅
+testing Number { line: 5, index: 119, size: 2, value: 85 }
+testing part: .... ❌
+testing part: .85. ❌
+testing part: *... ✅
+testing Number { line: 5, index: 132, size: 3, value: 735 }
+testing part: *.... ✅
+testing Number { line: 5, index: 136, size: 3, value: 586 }
+testing part: .*... ✅
+testing Number { line: 6, index: 1, size: 3, value: 650 }
+testing part: .../. ✅
+testing Number { line: 6, index: 6, size: 2, value: 23 }
+testing part: ..*. ✅
+testing Number { line: 6, index: 57, size: 3, value: 760 }
+testing part: ..... ❌
+testing part: .760* ✅
+testing Number { line: 6, index: 96, size: 3, value: 202 }
+testing part: ..... ❌
+testing part: .202. ❌
+testing part: .*... ✅
+testing Number { line: 6, index: 124, size: 3, value: 339 }
+testing part: ..... ❌
+testing part: .339. ❌
+testing part: ..... ❌
+testing Number { line: 7, index: 14, size: 3, value: 598 }
+testing part: ....* ✅
+testing Number { line: 7, index: 29, size: 3, value: 536 }
+testing part: ..... ❌
+testing part: .536. ❌
+testing part: ....@ ✅
+testing Number { line: 7, index: 36, size: 3, value: 702 }
+testing part: ..... ❌
+testing part: .702* ✅
+testing Number { line: 7, index: 49, size: 3, value: 705 }
+testing part: ..... ❌
+testing part: .705. ❌
+testing part: ..*.. ✅
+testing Number { line: 7, index: 62, size: 3, value: 793 }
+testing part: ..... ❌
+testing part: .793. ❌
+testing part: .*... ✅
+testing Number { line: 7, index: 71, size: 3, value: 957 }
+testing part: ./... ✅
+testing Number { line: 7, index: 100, size: 3, value: 935 }
+testing part: ..... ❌
+testing part: .935. ❌
+testing part: *.... ✅
+testing Number { line: 7, index: 114, size: 3, value: 965 }
+testing part: ..... ❌
+testing part: .965. ❌
+testing part: .*... ✅
+testing Number { line: 8, index: 20, size: 3, value: 357 }
+testing part: ....# ✅
+testing Number { line: 8, index: 40, size: 3, value: 242 }
+testing part: *.... ✅
+testing Number { line: 8, index: 57, size: 3, value: 283 }
+testing part: ..... ❌
+testing part: .283. ❌
+testing part: ..... ❌
+testing Number { line: 8, index: 67, size: 3, value: 956 }
+testing part: ..... ❌
+testing part: =956. ✅
+testing Number { line: 8, index: 77, size: 3, value: 118 }
+testing part: ..... ❌
+testing part: .118. ❌
+testing part: .*... ✅
+testing Number { line: 8, index: 87, size: 3, value: 959 }
+testing part: ./... ✅
+testing Number { line: 8, index: 93, size: 3, value: 184 }
+testing part: ....* ✅
+testing Number { line: 8, index: 119, size: 3, value: 401 }
+testing part: ..... ❌
+testing part: .401* ✅
+testing Number { line: 8, index: 123, size: 3, value: 527 }
+testing part: ..... ❌
+testing part: *527. ✅
+testing Number { line: 8, index: 131, size: 3, value: 348 }
+testing part: ..... ❌
+testing part: .348. ❌
+testing part: ..... ❌
+testing Number { line: 8, index: 137, size: 3, value: 161 }
+testing part: .... ❌
+testing part: .161 ❌
+testing part: .... ❌
+testing Number { line: 9, index: 1, size: 2, value: 63 }
+testing part: .... ❌
+testing part: .63= ✅
+testing Number { line: 9, index: 7, size: 3, value: 955 }
+testing part: ..... ❌
+testing part: .955. ❌
+testing part: ...*. ✅
+testing Number { line: 9, index: 11, size: 3, value: 523 }
+testing part: ..... ❌
+testing part: .523. ❌
+testing part: ..... ❌
+testing Number { line: 9, index: 16, size: 2, value: 77 }
+testing part: ...* ✅
+testing Number { line: 9, index: 24, size: 3, value: 978 }
+testing part: ...+. ✅
+testing Number { line: 9, index: 28, size: 3, value: 846 }
+testing part: ..... ❌
+testing part: .846. ❌
+testing part: .*... ✅
+testing Number { line: 9, index: 35, size: 3, value: 849 }
+testing part: ..... ❌
+testing part: .849. ❌
+testing part: ..*.. ✅
+testing Number { line: 9, index: 48, size: 3, value: 699 }
+testing part: ...*. ✅
+testing Number { line: 9, index: 61, size: 3, value: 790 }
+testing part: ..*.. ✅
+testing Number { line: 9, index: 73, size: 3, value: 911 }
+testing part: ..... ❌
+testing part: =911. ✅
+testing Number { line: 9, index: 83, size: 2, value: 87 }
+testing part: .... ❌
+testing part: .87. ❌
+testing part: ...* ✅
+testing Number { line: 9, index: 100, size: 3, value: 486 }
+testing part: *.... ✅
+testing Number { line: 9, index: 112, size: 3, value: 914 }
+testing part: ...*. ✅
+testing Number { line: 10, index: 19, size: 3, value: 842 }
+testing part: ..... ❌
+testing part: .842. ❌
+testing part: ...*. ✅
+testing Number { line: 10, index: 56, size: 3, value: 127 }
+testing part: ..... ❌
+testing part: *127. ✅
+testing Number { line: 10, index: 79, size: 3, value: 844 }
+testing part: ..... ❌
+testing part: .844. ❌
+testing part: ...*. ✅
+testing Number { line: 10, index: 90, size: 3, value: 946 }
+testing part: ..... ❌
+testing part: .946. ❌
+testing part: ..... ❌
+testing Number { line: 10, index: 116, size: 3, value: 235 }
+testing part: ..... ❌
+testing part: .235. ❌
+testing part: .&... ✅
+testing Number { line: 10, index: 122, size: 3, value: 209 }
+testing part: ..... ❌
+testing part: .209@ ✅
+testing Number { line: 10, index: 129, size: 3, value: 710 }
+testing part: .=... ✅
+testing Number { line: 10, index: 133, size: 3, value: 735 }
+testing part: ..... ❌
+testing part: .735. ❌
+testing part: ....* ✅
+testing Number { line: 11, index: 27, size: 3, value: 144 }
+testing part: ..*.. ✅
+testing Number { line: 11, index: 34, size: 3, value: 226 }
+testing part: ...*. ✅
+testing Number { line: 11, index: 41, size: 3, value: 298 }
+testing part: ..... ❌
+testing part: .298. ❌
+testing part: ....+ ✅
+testing Number { line: 11, index: 52, size: 3, value: 560 }
+testing part: ....* ✅
+testing Number { line: 11, index: 60, size: 3, value: 253 }
+testing part: ..... ❌
+testing part: .253. ❌
+testing part: ..... ❌
+testing Number { line: 11, index: 72, size: 3, value: 431 }
+testing part: ..... ❌
+testing part: .431. ❌
+testing part: ....% ✅
+testing Number { line: 11, index: 85, size: 3, value: 586 }
+testing part: .*... ✅
+testing Number { line: 11, index: 95, size: 3, value: 723 }
+testing part: ..... ❌
+testing part: .723. ❌
+testing part: ...*. ✅
+testing Number { line: 11, index: 106, size: 3, value: 482 }
+testing part: ..... ❌
+testing part: .482. ❌
+testing part: ....@ ✅
+testing Number { line: 12, index: 11, size: 3, value: 871 }
+testing part: .@... ✅
+testing Number { line: 12, index: 17, size: 3, value: 918 }
+testing part: ..... ❌
+testing part: /918. ✅
+testing Number { line: 12, index: 65, size: 3, value: 329 }
+testing part: ..... ❌
+testing part: .329* ✅
+testing Number { line: 12, index: 81, size: 3, value: 906 }
+testing part: .*... ✅
+testing Number { line: 12, index: 101, size: 3, value: 350 }
+testing part: ../.. ✅
+testing Number { line: 12, index: 125, size: 3, value: 365 }
+testing part: ..... ❌
+testing part: .365. ❌
+testing part: *.... ✅
+testing Number { line: 12, index: 135, size: 3, value: 361 }
+testing part: ..*.. ✅
+testing Number { line: 13, index: 22, size: 3, value: 536 }
+testing part: ..... ❌
+testing part: .536. ❌
+testing part: ..*.. ✅
+testing Number { line: 13, index: 56, size: 3, value: 793 }
+testing part: ..... ❌
+testing part: .793. ❌
+testing part: .+... ✅
+testing Number { line: 13, index: 69, size: 3, value: 664 }
+testing part: *.... ✅
+testing Number { line: 13, index: 77, size: 3, value: 739 }
+testing part: ..... ❌
+testing part: .739. ❌
+testing part: *.... ✅
+testing Number { line: 13, index: 96, size: 3, value: 507 }
+testing part: ..*.. ✅
+testing Number { line: 13, index: 105, size: 3, value: 289 }
+testing part: ..... ❌
+testing part: .289. ❌
+testing part: *.... ✅
+testing Number { line: 13, index: 113, size: 3, value: 256 }
+testing part: ..... ❌
+testing part: .256% ✅
+testing Number { line: 13, index: 120, size: 2, value: 73 }
+testing part: .... ❌
+testing part: .73. ❌
+testing part: ..$. ✅
+testing Number { line: 14, index: 1, size: 3, value: 356 }
+testing part: ..... ❌
+testing part: .356. ❌
+testing part: ...*. ✅
+testing Number { line: 14, index: 6, size: 3, value: 834 }
+testing part: ..... ❌
+testing part: .834. ❌
+testing part: ..*.. ✅
+testing Number { line: 14, index: 33, size: 2, value: 96 }
+testing part: .... ❌
+testing part: .96. ❌
+testing part: .*.. ✅
+testing Number { line: 14, index: 36, size: 3, value: 939 }
+testing part: ..... ❌
+testing part: .939. ❌
+testing part: .-... ✅
+testing Number { line: 14, index: 53, size: 2, value: 28 }
+testing part: .+.. ✅
+testing Number { line: 14, index: 123, size: 3, value: 553 }
+testing part: ..*.. ✅
+testing Number { line: 14, index: 136, size: 3, value: 526 }
+testing part: ..... ❌
+testing part: .526. ❌
+testing part: .$... ✅
+testing Number { line: 15, index: 21, size: 3, value: 501 }
+testing part: ...*. ✅
+testing Number { line: 15, index: 26, size: 3, value: 746 }
+testing part: ..... ❌
+testing part: .746. ❌
+testing part: ...*. ✅
+testing Number { line: 15, index: 62, size: 3, value: 890 }
+testing part: =.... ✅
+testing Number { line: 15, index: 74, size: 3, value: 701 }
+testing part: ...*. ✅
+testing Number { line: 15, index: 91, size: 3, value: 807 }
+testing part: ..... ❌
+testing part: .807. ❌
+testing part: ...*. ✅
+testing Number { line: 15, index: 102, size: 3, value: 447 }
+testing part: ...*. ✅
+testing Number { line: 15, index: 111, size: 2, value: 97 }
+testing part: .... ❌
+testing part: .97$ ✅
+testing Number { line: 15, index: 128, size: 2, value: 58 }
+testing part: .... ❌
+testing part: .58. ❌
+testing part: .*.. ✅
+testing Number { line: 16, index: 1, size: 3, value: 891 }
+testing part: ...*. ✅
+testing Number { line: 16, index: 8, size: 3, value: 346 }
+testing part: *.... ✅
+testing Number { line: 16, index: 14, size: 3, value: 699 }
+testing part: ..... ❌
+testing part: .699. ❌
+testing part: .%... ✅
+testing Number { line: 16, index: 30, size: 3, value: 421 }
+testing part: ....* ✅
+testing Number { line: 16, index: 44, size: 3, value: 666 }
+testing part: .=... ✅
+testing Number { line: 16, index: 53, size: 3, value: 198 }
+testing part: ..... ❌
+testing part: .198* ✅
+testing Number { line: 16, index: 57, size: 3, value: 791 }
+testing part: ..... ❌
+testing part: *791. ✅
+testing Number { line: 16, index: 66, size: 3, value: 340 }
+testing part: ..... ❌
+testing part: .340. ❌
+testing part: /.... ✅
+testing Number { line: 16, index: 70, size: 3, value: 433 }
+testing part: .+... ✅
+testing Number { line: 16, index: 117, size: 3, value: 316 }
+testing part: %.... ✅
+testing Number { line: 17, index: 23, size: 2, value: 81 }
+testing part: .... ❌
+testing part: .81. ❌
+testing part: .@.. ✅
+testing Number { line: 17, index: 26, size: 3, value: 984 }
+testing part: ...*. ✅
+testing Number { line: 17, index: 40, size: 3, value: 462 }
+testing part: +.... ✅
+testing Number { line: 17, index: 76, size: 3, value: 116 }
+testing part: ..... ❌
+testing part: .116. ❌
+testing part: *.... ✅
+testing Number { line: 17, index: 82, size: 3, value: 711 }
+testing part: ....# ✅
+testing Number { line: 17, index: 89, size: 3, value: 963 }
+testing part: .%... ✅
+testing Number { line: 17, index: 112, size: 3, value: 380 }
+testing part: ..... ❌
+testing part: .380. ❌
+testing part: ....* ✅
+testing Number { line: 17, index: 122, size: 3, value: 745 }
+testing part: ..... ❌
+testing part: .745. ❌
+testing part: ..... ❌
+testing Number { line: 17, index: 128, size: 2, value: 85 }
+testing part: .*.. ✅
+testing Number { line: 17, index: 134, size: 3, value: 224 }
+testing part: .%... ✅
+testing Number { line: 18, index: 9, size: 3, value: 370 }
+testing part: ..... ❌
+testing part: .370. ❌
+testing part: .*... ✅
+testing Number { line: 18, index: 18, size: 3, value: 923 }
+testing part: ..... ❌
+testing part: .923. ❌
+testing part: .-... ✅
+testing Number { line: 18, index: 45, size: 3, value: 563 }
+testing part: ..... ❌
+testing part: .563. ❌
+testing part: ..... ❌
+testing Number { line: 18, index: 59, size: 3, value: 188 }
+testing part: ..... ❌
+testing part: .188+ ✅
+testing Number { line: 18, index: 72, size: 3, value: 326 }
+testing part: ..... ❌
+testing part: .326* ✅
+testing Number { line: 18, index: 95, size: 2, value: 67 }
+testing part: .$.. ✅
+testing Number { line: 18, index: 98, size: 3, value: 815 }
+testing part: ..... ❌
+testing part: .815. ❌
+testing part: ..... ❌
+testing Number { line: 18, index: 116, size: 3, value: 582 }
+testing part: ..... ❌
+testing part: *582. ✅
+testing Number { line: 19, index: 28, size: 3, value: 530 }
+testing part: ..... ❌
+testing part: #530. ✅
+testing Number { line: 19, index: 40, size: 3, value: 489 }
+testing part: ..... ❌
+testing part: .489. ❌
+testing part: *.... ✅
+testing Number { line: 19, index: 51, size: 2, value: 59 }
+testing part: .... ❌
+testing part: .59. ❌
+testing part: .@.. ✅
+testing Number { line: 19, index: 110, size: 2, value: 57 }
+testing part: .... ❌
+testing part: .57. ❌
+testing part: .... ❌
+testing Number { line: 19, index: 121, size: 3, value: 100 }
+testing part: ..... ❌
+testing part: .100. ❌
+testing part: ...=. ✅
+testing Number { line: 19, index: 133, size: 3, value: 441 }
+testing part: ..... ❌
+testing part: .441* ✅
+testing Number { line: 19, index: 137, size: 3, value: 161 }
+testing part: .... ❌
+testing part: *161 ✅
+testing Number { line: 20, index: 1, size: 3, value: 637 }
+testing part: ..... ❌
+testing part: .637* ✅
+testing Number { line: 20, index: 9, size: 3, value: 961 }
+testing part: .*... ✅
+testing Number { line: 20, index: 23, size: 3, value: 118 }
+testing part: ..... ❌
+testing part: .118. ❌
+testing part: ....* ✅
+testing Number { line: 20, index: 37, size: 2, value: 21 }
+testing part: .... ❌
+testing part: .21* ✅
+testing Number { line: 20, index: 54, size: 3, value: 216 }
+testing part: ..... ❌
+testing part: .216+ ✅
+testing Number { line: 20, index: 88, size: 3, value: 432 }
+testing part: ..... ❌
+testing part: .432* ✅
+testing Number { line: 20, index: 94, size: 3, value: 309 }
+testing part: ..... ❌
+testing part: *309. ✅
+testing Number { line: 20, index: 99, size: 2, value: 64 }
+testing part: .... ❌
+testing part: .64. ❌
+testing part: *... ✅
+testing Number { line: 20, index: 105, size: 3, value: 992 }
+testing part: #.... ✅
+testing Number { line: 20, index: 115, size: 2, value: 81 }
+testing part: .... ❌
+testing part: .81. ❌
+testing part: .*.. ✅
+testing Number { line: 20, index: 125, size: 3, value: 781 }
+testing part: .*... ✅
+testing Number { line: 20, index: 129, size: 3, value: 644 }
+testing part: ..... ❌
+testing part: .644. ❌
+testing part: ....* ✅
+testing Number { line: 21, index: 5, size: 3, value: 324 }
+testing part: *.... ✅
+testing Number { line: 21, index: 17, size: 3, value: 126 }
+testing part: ..... ❌
+testing part: .126. ❌
+testing part: *.... ✅
+testing Number { line: 21, index: 27, size: 3, value: 166 }
+testing part: ..... ❌
+testing part: *166. ✅
+testing Number { line: 21, index: 65, size: 3, value: 385 }
+testing part: ..... ❌
+testing part: .385* ✅
+testing Number { line: 21, index: 83, size: 3, value: 233 }
+testing part: .+... ✅
+testing Number { line: 21, index: 118, size: 3, value: 436 }
+testing part: ..... ❌
+testing part: .436. ❌
+testing part: ..$.. ✅
+testing Number { line: 21, index: 133, size: 3, value: 517 }
+testing part: ..... ❌
+testing part: *517. ✅
+testing Number { line: 22, index: 1, size: 2, value: 88 }
+testing part: .... ❌
+testing part: .88* ✅
+testing Number { line: 22, index: 13, size: 3, value: 390 }
+testing part: ..... ❌
+testing part: .390* ✅
+testing Number { line: 22, index: 33, size: 3, value: 355 }
+testing part: ..... ❌
+testing part: .355. ❌
+testing part: *.... ✅
+testing Number { line: 22, index: 38, size: 3, value: 335 }
+testing part: ..... ❌
+testing part: .335. ❌
+testing part: ....- ✅
+testing Number { line: 22, index: 44, size: 3, value: 372 }
+testing part: ..&.. ✅
+testing Number { line: 22, index: 52, size: 3, value: 254 }
+testing part: ..... ❌
+testing part: +254. ✅
+testing Number { line: 22, index: 69, size: 3, value: 294 }
+testing part: *.... ✅
+testing Number { line: 22, index: 76, size: 3, value: 589 }
+testing part: ..... ❌
+testing part: $589. ✅
+testing Number { line: 22, index: 90, size: 3, value: 803 }
+testing part: ..... ❌
+testing part: .803/ ✅
+testing Number { line: 22, index: 99, size: 2, value: 38 }
+testing part: *... ✅
+testing Number { line: 22, index: 115, size: 2, value: 56 }
+testing part: .*.. ✅
+testing Number { line: 23, index: 4, size: 3, value: 235 }
+testing part: *.... ✅
+testing Number { line: 23, index: 19, size: 3, value: 196 }
+testing part: ..... ❌
+testing part: +196. ✅
+testing Number { line: 23, index: 25, size: 3, value: 948 }
+testing part: ..... ❌
+testing part: .948. ❌
+testing part: ....- ✅
+testing Number { line: 23, index: 58, size: 3, value: 359 }
+testing part: ..... ❌
+testing part: .359. ❌
+testing part: *.... ✅
+testing Number { line: 23, index: 86, size: 3, value: 398 }
+testing part: ..&.. ✅
+testing Number { line: 23, index: 102, size: 3, value: 608 }
+testing part: ..-.. ✅
+testing Number { line: 23, index: 127, size: 3, value: 145 }
+testing part: ..... ❌
+testing part: .145. ❌
+testing part: ...*. ✅
+testing Number { line: 23, index: 132, size: 3, value: 346 }
+testing part: ..... ❌
+testing part: .346. ❌
+testing part: %.... ✅
+testing Number { line: 24, index: 8, size: 3, value: 915 }
+testing part: .-... ✅
+testing Number { line: 24, index: 30, size: 3, value: 485 }
+testing part: ...*. ✅
+testing Number { line: 24, index: 34, size: 3, value: 945 }
+testing part: ..... ❌
+testing part: .945. ❌
+testing part: .+... ✅
+testing Number { line: 24, index: 54, size: 3, value: 936 }
+testing part: ..... ❌
+testing part: .936* ✅
+testing Number { line: 24, index: 74, size: 3, value: 114 }
+testing part: ..... ❌
+testing part: .114. ❌
+testing part: ..*.. ✅
+testing Number { line: 24, index: 90, size: 3, value: 118 }
+testing part: ..... ❌
+testing part: .118. ❌
+testing part: ..... ❌
+testing Number { line: 24, index: 108, size: 3, value: 490 }
+testing part: ../.. ✅
+testing Number { line: 24, index: 112, size: 3, value: 536 }
+testing part: ..... ❌
+testing part: .536. ❌
+testing part: ..... ❌
+testing Number { line: 25, index: 1, size: 3, value: 663 }
+testing part: ..... ❌
+testing part: .663. ❌
+testing part: ..... ❌
+testing Number { line: 25, index: 12, size: 2, value: 61 }
+testing part: .... ❌
+testing part: .61. ❌
+testing part: ..$. ✅
+testing Number { line: 25, index: 21, size: 3, value: 856 }
+testing part: ..... ❌
+testing part: .856. ❌
+testing part: ..... ❌
+testing Number { line: 25, index: 39, size: 3, value: 343 }
+testing part: ..... ❌
+testing part: .343. ❌
+testing part: *.... ✅
+testing Number { line: 25, index: 46, size: 3, value: 859 }
+testing part: ..... ❌
+testing part: .859. ❌
+testing part: ..... ❌
+testing Number { line: 25, index: 65, size: 3, value: 345 }
+testing part: ..... ❌
+testing part: *345. ✅
+testing Number { line: 25, index: 80, size: 3, value: 862 }
+testing part: ..... ❌
+testing part: =862. ✅
+testing Number { line: 25, index: 95, size: 3, value: 711 }
+testing part: ..... ❌
+testing part: .711. ❌
+testing part: ..... ❌
+testing Number { line: 25, index: 127, size: 3, value: 313 }
+testing part: ...*. ✅
+testing Number { line: 25, index: 135, size: 3, value: 606 }
+testing part: ..... ❌
+testing part: .606. ❌
+testing part: ..... ❌
+testing Number { line: 26, index: 8, size: 2, value: 23 }
+testing part: .... ❌
+testing part: .23. ❌
+testing part: .... ❌
+testing Number { line: 26, index: 61, size: 3, value: 316 }
+testing part: ....* ✅
+testing Number { line: 26, index: 69, size: 3, value: 529 }
+testing part: ..... ❌
+testing part: .529. ❌
+testing part: ..*.. ✅
+testing Number { line: 26, index: 73, size: 3, value: 362 }
+testing part: ...*. ✅
+testing Number { line: 26, index: 89, size: 2, value: 49 }
+testing part: .... ❌
+testing part: .49. ❌
+testing part: -... ✅
+testing Number { line: 26, index: 113, size: 3, value: 307 }
+testing part: ..... ❌
+testing part: .307* ✅
+testing Number { line: 26, index: 117, size: 3, value: 791 }
+testing part: ..... ❌
+testing part: *791. ✅
+testing Number { line: 27, index: 0, size: 3, value: 225 }
+testing part: .... ❌
+testing part: 225. ❌
+testing part: .... ❌
+testing Number { line: 27, index: 18, size: 3, value: 281 }
+testing part: ..@.. ✅
+testing Number { line: 27, index: 27, size: 3, value: 222 }
+testing part: ..... ❌
+testing part: .222. ❌
+testing part: ..../ ✅
+testing Number { line: 27, index: 38, size: 3, value: 283 }
+testing part: .*... ✅
+testing Number { line: 27, index: 55, size: 3, value: 675 }
+testing part: ..... ❌
+testing part: .675. ❌
+testing part: ..... ❌
+testing Number { line: 27, index: 80, size: 3, value: 911 }
+testing part: ..... ❌
+testing part: .911* ✅
+testing Number { line: 27, index: 84, size: 2, value: 90 }
+testing part: .... ❌
+testing part: *90. ✅
+testing Number { line: 27, index: 94, size: 3, value: 914 }
+testing part: ..... ❌
+testing part: .914. ❌
+testing part: ..*.. ✅
+testing Number { line: 27, index: 100, size: 2, value: 39 }
+testing part: .... ❌
+testing part: %39. ✅
+testing Number { line: 27, index: 106, size: 3, value: 509 }
+testing part: ..... ❌
+testing part: .509. ❌
+testing part: ...=. ✅
+testing Number { line: 28, index: 7, size: 3, value: 797 }
+testing part: ..... ❌
+testing part: .797* ✅
+testing Number { line: 28, index: 24, size: 2, value: 23 }
+testing part: .#.. ✅
+testing Number { line: 28, index: 34, size: 3, value: 895 }
+testing part: ..@.. ✅
+testing Number { line: 28, index: 50, size: 2, value: 67 }
+testing part: .... ❌
+testing part: .67. ❌
+testing part: @... ✅
+testing Number { line: 28, index: 59, size: 3, value: 164 }
+testing part: ..... ❌
+testing part: .164. ❌
+testing part: ...*. ✅
+testing Number { line: 28, index: 63, size: 3, value: 896 }
+testing part: ..... ❌
+testing part: .896. ❌
+testing part: ....* ✅
+testing Number { line: 28, index: 71, size: 3, value: 554 }
+testing part: *.... ✅
+testing Number { line: 28, index: 123, size: 3, value: 460 }
+testing part: ..... ❌
+testing part: .460. ❌
+testing part: ...*. ✅
+testing Number { line: 28, index: 134, size: 3, value: 181 }
+testing part: ..... ❌
+testing part: .181. ❌
+testing part: ..=.. ✅
+testing Number { line: 29, index: 11, size: 3, value: 211 }
+testing part: *.... ✅
+testing Number { line: 29, index: 15, size: 3, value: 474 }
+testing part: .$... ✅
+testing Number { line: 29, index: 67, size: 3, value: 201 }
+testing part: ..... ❌
+testing part: *201. ✅
+testing Number { line: 29, index: 80, size: 3, value: 911 }
+testing part: ..... ❌
+testing part: .911. ❌
+testing part: ....* ✅
+testing Number { line: 29, index: 84, size: 3, value: 717 }
+testing part: ..... ❌
+testing part: .717. ❌
+testing part: *.... ✅
+testing Number { line: 29, index: 93, size: 3, value: 192 }
+testing part: ...*. ✅
+testing Number { line: 29, index: 97, size: 2, value: 75 }
+testing part: .... ❌
+testing part: .75. ❌
+testing part: .*.. ✅
+testing Number { line: 29, index: 101, size: 3, value: 679 }
+testing part: ..... ❌
+testing part: .679. ❌
+testing part: ...*. ✅
+testing Number { line: 30, index: 4, size: 3, value: 355 }
+testing part: ..... ❌
+testing part: .355. ❌
+testing part: .*... ✅
+testing Number { line: 30, index: 54, size: 3, value: 678 }
+testing part: ..... ❌
+testing part: .678. ❌
+testing part: ...*. ✅
+testing Number { line: 30, index: 58, size: 3, value: 650 }
+testing part: ....* ✅
+testing Number { line: 30, index: 89, size: 3, value: 128 }
+testing part: #.... ✅
+testing Number { line: 30, index: 113, size: 3, value: 925 }
+testing part: ...$. ✅
+testing Number { line: 30, index: 118, size: 3, value: 230 }
+testing part: ..... ❌
+testing part: .230. ❌
+testing part: *.... ✅
+testing Number { line: 30, index: 124, size: 3, value: 105 }
+testing part: ..*.. ✅
+testing Number { line: 31, index: 12, size: 3, value: 409 }
+testing part: ..... ❌
+testing part: .409# ✅
+testing Number { line: 31, index: 24, size: 3, value: 897 }
+testing part: ..... ❌
+testing part: *897. ✅
+testing Number { line: 31, index: 32, size: 3, value: 698 }
+testing part: .&... ✅
+testing Number { line: 31, index: 39, size: 3, value: 427 }
+testing part: ..... ❌
+testing part: .427. ❌
+testing part: .-... ✅
+testing Number { line: 31, index: 96, size: 3, value: 313 }
+testing part: ..*.. ✅
+testing Number { line: 31, index: 102, size: 3, value: 670 }
+testing part: ..*.. ✅
+testing Number { line: 31, index: 107, size: 3, value: 521 }
+testing part: ..... ❌
+testing part: .521. ❌
+testing part: ..... ❌
+testing Number { line: 31, index: 137, size: 3, value: 308 }
+testing part: .... ❌
+testing part: *308 ✅
+testing Number { line: 32, index: 3, size: 3, value: 838 }
+testing part: ..*.. ✅
+testing Number { line: 32, index: 8, size: 3, value: 335 }
+testing part: ..... ❌
+testing part: .335. ❌
+testing part: ....* ✅
+testing Number { line: 32, index: 28, size: 3, value: 367 }
+testing part: ..... ❌
+testing part: .367. ❌
+testing part: ..+.. ✅
+testing Number { line: 32, index: 50, size: 3, value: 325 }
+testing part: ..+.. ✅
+testing Number { line: 32, index: 57, size: 3, value: 233 }
+testing part: *.... ✅
+testing Number { line: 32, index: 63, size: 3, value: 224 }
+testing part: ..*.. ✅
+testing Number { line: 32, index: 69, size: 3, value: 950 }
+testing part: ..... ❌
+testing part: .950. ❌
+testing part: ...*. ✅
+testing Number { line: 32, index: 78, size: 3, value: 688 }
+testing part: ..... ❌
+testing part: .688. ❌
+testing part: ..... ❌
+testing Number { line: 32, index: 86, size: 3, value: 199 }
+testing part: ..... ❌
+testing part: .199. ❌
+testing part: ...&. ✅
+testing Number { line: 32, index: 90, size: 3, value: 774 }
+testing part: ..... ❌
+testing part: .774. ❌
+testing part: ..... ❌
+testing Number { line: 32, index: 118, size: 3, value: 793 }
+testing part: *.... ✅
+testing Number { line: 32, index: 122, size: 3, value: 108 }
+testing part: .&... ✅
+testing Number { line: 32, index: 133, size: 3, value: 501 }
+testing part: ....* ✅
+testing Number { line: 33, index: 14, size: 3, value: 102 }
+testing part: ..... ❌
+testing part: .102. ❌
+testing part: ..*.. ✅
+testing Number { line: 33, index: 19, size: 3, value: 924 }
+testing part: ..... ❌
+testing part: .924. ❌
+testing part: ....* ✅
+testing Number { line: 33, index: 23, size: 3, value: 349 }
+testing part: ..... ❌
+testing part: .349. ❌
+testing part: *.... ✅
+testing Number { line: 33, index: 32, size: 3, value: 595 }
+testing part: ..... ❌
+testing part: .595. ❌
+testing part: *.... ✅
+testing Number { line: 33, index: 103, size: 3, value: 395 }
+testing part: ..... ❌
+testing part: .395+ ✅
+testing Number { line: 33, index: 128, size: 3, value: 753 }
+testing part: ..... ❌
+testing part: .753. ❌
+testing part: ....* ✅
+testing Number { line: 34, index: 9, size: 3, value: 318 }
+testing part: ...*. ✅
+testing Number { line: 34, index: 36, size: 3, value: 676 }
+testing part: ..... ❌
+testing part: .676. ❌
+testing part: ....* ✅
+testing Number { line: 34, index: 42, size: 3, value: 759 }
+testing part: ..... ❌
+testing part: .759. ❌
+testing part: ..... ❌
+testing Number { line: 34, index: 46, size: 3, value: 154 }
+testing part: ..... ❌
+testing part: .154. ❌
+testing part: ...*. ✅
+testing Number { line: 34, index: 68, size: 3, value: 524 }
+testing part: ....* ✅
+testing Number { line: 34, index: 82, size: 3, value: 908 }
+testing part: ..... ❌
+testing part: .908. ❌
+testing part: ..+.. ✅
+testing Number { line: 34, index: 94, size: 3, value: 694 }
+testing part: ..... ❌
+testing part: .694. ❌
+testing part: ..*.. ✅
+testing Number { line: 34, index: 98, size: 3, value: 211 }
+testing part: ..... ❌
+testing part: .211. ❌
+testing part: ../.. ✅
+testing Number { line: 34, index: 117, size: 3, value: 173 }
+testing part: ..... ❌
+testing part: .173. ❌
+testing part: ..... ❌
+testing Number { line: 34, index: 132, size: 3, value: 214 }
+testing part: ..... ❌
+testing part: *214. ✅
+testing Number { line: 34, index: 137, size: 3, value: 424 }
+testing part: .... ❌
+testing part: .424 ❌
+testing part: *... ✅
+testing Number { line: 35, index: 4, size: 3, value: 458 }
+testing part: ..... ❌
+testing part: .458. ❌
+testing part: ....* ✅
+testing Number { line: 35, index: 15, size: 3, value: 403 }
+testing part: .*... ✅
+testing Number { line: 35, index: 29, size: 3, value: 958 }
+testing part: ...*. ✅
+testing Number { line: 35, index: 33, size: 2, value: 98 }
+testing part: .... ❌
+testing part: .98. ❌
+testing part: .... ❌
+testing Number { line: 35, index: 63, size: 3, value: 688 }
+testing part: ..... ❌
+testing part: .688. ❌
+testing part: ....+ ✅
+testing Number { line: 35, index: 72, size: 3, value: 957 }
+testing part: ..... ❌
+testing part: .957. ❌
+testing part: *.... ✅
+testing Number { line: 35, index: 78, size: 3, value: 488 }
+testing part: ..... ❌
+testing part: .488. ❌
+testing part: ...*. ✅
+testing Number { line: 36, index: 21, size: 3, value: 591 }
+testing part: ..... ❌
+testing part: .591. ❌
+testing part: .*... ✅
+testing Number { line: 36, index: 39, size: 3, value: 218 }
+testing part: .*... ✅
+testing Number { line: 36, index: 47, size: 3, value: 203 }
+testing part: ..*.. ✅
+testing Number { line: 36, index: 55, size: 3, value: 196 }
+testing part: ..... ❌
+testing part: .196$ ✅
+testing Number { line: 36, index: 103, size: 3, value: 765 }
+testing part: ..... ❌
+testing part: .765. ❌
+testing part: ..@.. ✅
+testing Number { line: 36, index: 112, size: 3, value: 971 }
+testing part: ..... ❌
+testing part: .971. ❌
+testing part: ..*.. ✅
+testing Number { line: 36, index: 127, size: 3, value: 927 }
+testing part: ..... ❌
+testing part: .927* ✅
+testing Number { line: 36, index: 131, size: 3, value: 741 }
+testing part: ..... ❌
+testing part: *741. ✅
+testing Number { line: 36, index: 136, size: 3, value: 227 }
+testing part: .*... ✅
+testing Number { line: 37, index: 6, size: 3, value: 592 }
+testing part: ..*.. ✅
+testing Number { line: 37, index: 12, size: 2, value: 60 }
+testing part: .... ❌
+testing part: %60. ✅
+testing Number { line: 37, index: 27, size: 3, value: 885 }
+testing part: ..... ❌
+testing part: .885/ ✅
+testing Number { line: 37, index: 35, size: 3, value: 287 }
+testing part: ..... ❌
+testing part: .287. ❌
+testing part: ..... ❌
+testing Number { line: 37, index: 69, size: 3, value: 474 }
+testing part: ...*. ✅
+testing Number { line: 37, index: 81, size: 3, value: 409 }
+testing part: *.... ✅
+testing Number { line: 37, index: 90, size: 3, value: 226 }
+testing part: ..... ❌
+testing part: .226. ❌
+testing part: .*... ✅
+testing Number { line: 37, index: 94, size: 3, value: 174 }
+testing part: ..... ❌
+testing part: .174. ❌
+testing part: .*... ✅
+testing Number { line: 37, index: 119, size: 3, value: 230 }
+testing part: ..../ ✅
+testing Number { line: 38, index: 15, size: 3, value: 162 }
+testing part: .$... ✅
+testing Number { line: 38, index: 19, size: 3, value: 169 }
+testing part: ...*. ✅
+testing Number { line: 38, index: 39, size: 3, value: 510 }
+testing part: ..... ❌
+testing part: .510. ❌
+testing part: *.... ✅
+testing Number { line: 38, index: 44, size: 3, value: 962 }
+testing part: ..... ❌
+testing part: .962. ❌
+testing part: ....* ✅
+testing Number { line: 38, index: 61, size: 2, value: 17 }
+testing part: .... ❌
+testing part: .17. ❌
+testing part: .... ❌
+testing Number { line: 38, index: 85, size: 2, value: 32 }
+testing part: .... ❌
+testing part: .32@ ✅
+testing Number { line: 38, index: 112, size: 3, value: 225 }
+testing part: ..*.. ✅
+testing Number { line: 39, index: 5, size: 3, value: 880 }
+testing part: ..... ❌
+testing part: .880. ❌
+testing part: ..... ❌
+testing Number { line: 39, index: 27, size: 3, value: 201 }
+testing part: ..... ❌
+testing part: .201. ❌
+testing part: ....+ ✅
+testing Number { line: 39, index: 35, size: 3, value: 823 }
+testing part: ..... ❌
+testing part: .823* ✅
+testing Number { line: 39, index: 51, size: 3, value: 914 }
+testing part: ..... ❌
+testing part: .914. ❌
+testing part: ..&.. ✅
+testing Number { line: 39, index: 55, size: 3, value: 724 }
+testing part: ..... ❌
+testing part: .724. ❌
+testing part: ..=.. ✅
+testing Number { line: 39, index: 67, size: 2, value: 89 }
+testing part: .... ❌
+testing part: .89. ❌
+testing part: .*.. ✅
+testing Number { line: 39, index: 80, size: 3, value: 267 }
+testing part: ..... ❌
+testing part: .267= ✅
+testing Number { line: 39, index: 89, size: 3, value: 717 }
+testing part: ..*.. ✅
+testing Number { line: 39, index: 93, size: 2, value: 54 }
+testing part: ..*. ✅
+testing Number { line: 39, index: 96, size: 3, value: 436 }
+testing part: ..... ❌
+testing part: .436. ❌
+testing part: ..... ❌
+testing Number { line: 39, index: 109, size: 2, value: 60 }
+testing part: .... ❌
+testing part: .60. ❌
+testing part: ..*. ✅
+testing Number { line: 39, index: 136, size: 2, value: 69 }
+testing part: -... ✅
+testing Number { line: 40, index: 0, size: 3, value: 710 }
+testing part: .... ❌
+testing part: 710. ❌
+testing part: .... ❌
+testing Number { line: 40, index: 11, size: 3, value: 601 }
+testing part: ..... ❌
+testing part: .601. ❌
+testing part: ....* ✅
+testing Number { line: 40, index: 18, size: 3, value: 306 }
+testing part: ..... ❌
+testing part: .306. ❌
+testing part: *.... ✅
+testing Number { line: 40, index: 22, size: 3, value: 287 }
+testing part: ..... ❌
+testing part: .287. ❌
+testing part: ...&. ✅
+testing Number { line: 40, index: 40, size: 2, value: 65 }
+testing part: .... ❌
+testing part: .65. ❌
+testing part: %... ✅
+testing Number { line: 40, index: 45, size: 3, value: 308 }
+testing part: ...*. ✅
+testing Number { line: 40, index: 73, size: 3, value: 926 }
+testing part: &.... ✅
+testing Number { line: 40, index: 119, size: 3, value: 278 }
+testing part: ..... ❌
+testing part: .278. ❌
+testing part: .-... ✅
+testing Number { line: 40, index: 123, size: 3, value: 415 }
+testing part: ....& ✅
+testing Number { line: 41, index: 35, size: 3, value: 241 }
+testing part: ..... ❌
+testing part: .241. ❌
+testing part: *.... ✅
+testing Number { line: 41, index: 59, size: 3, value: 827 }
+testing part: ../.. ✅
+testing Number { line: 41, index: 66, size: 3, value: 265 }
+testing part: ..*.. ✅
+testing Number { line: 41, index: 82, size: 3, value: 662 }
+testing part: ..... ❌
+testing part: .662. ❌
+testing part: .*... ✅
+testing Number { line: 41, index: 86, size: 3, value: 678 }
+testing part: ..... ❌
+testing part: .678. ❌
+testing part: .&... ✅
+testing Number { line: 41, index: 132, size: 3, value: 734 }
+testing part: .-... ✅
+testing Number { line: 41, index: 136, size: 3, value: 144 }
+testing part: ..... ❌
+testing part: .144. ❌
+testing part: ..... ❌
+testing Number { line: 42, index: 13, size: 3, value: 424 }
+testing part: ..*.. ✅
+testing Number { line: 42, index: 18, size: 3, value: 434 }
+testing part: *.... ✅
+testing Number { line: 42, index: 26, size: 3, value: 701 }
+testing part: ..... ❌
+testing part: .701. ❌
+testing part: ...*. ✅
+testing Number { line: 42, index: 43, size: 3, value: 380 }
+testing part: ..... ❌
+testing part: .380* ✅
+testing Number { line: 42, index: 47, size: 3, value: 731 }
+testing part: ..... ❌
+testing part: *731. ✅
+testing Number { line: 42, index: 63, size: 2, value: 24 }
+testing part: ../. ✅
+testing Number { line: 42, index: 95, size: 3, value: 973 }
+testing part: .@... ✅
+testing Number { line: 42, index: 100, size: 3, value: 741 }
+testing part: #.... ✅
+testing Number { line: 42, index: 107, size: 3, value: 728 }
+testing part: @.... ✅
+testing Number { line: 42, index: 112, size: 3, value: 357 }
+testing part: .$... ✅
+testing Number { line: 43, index: 8, size: 3, value: 304 }
+testing part: ..... ❌
+testing part: .304. ❌
+testing part: ..... ❌
+testing Number { line: 43, index: 32, size: 3, value: 881 }
+testing part: ...*. ✅
+testing Number { line: 43, index: 51, size: 3, value: 238 }
+testing part: ..... ❌
+testing part: .238. ❌
+testing part: *.... ✅
+testing Number { line: 43, index: 59, size: 3, value: 740 }
+testing part: ..... ❌
+testing part: .740. ❌
+testing part: ...+. ✅
+testing Number { line: 43, index: 71, size: 3, value: 947 }
+testing part: ..... ❌
+testing part: .947. ❌
+testing part: ..*.. ✅
+testing Number { line: 43, index: 82, size: 3, value: 587 }
+testing part: .*... ✅
+testing Number { line: 43, index: 88, size: 2, value: 22 }
+testing part: .... ❌
+testing part: .22. ❌
+testing part: ..*. ✅
+testing Number { line: 43, index: 117, size: 3, value: 271 }
+testing part: ..... ❌
+testing part: .271* ✅
+testing Number { line: 43, index: 129, size: 3, value: 603 }
+testing part: ..... ❌
+testing part: .603. ❌
+testing part: ....* ✅
+testing Number { line: 44, index: 19, size: 3, value: 266 }
+testing part: ..... ❌
+testing part: .266. ❌
+testing part: .*... ✅
+testing Number { line: 44, index: 27, size: 3, value: 918 }
+testing part: ..*.. ✅
+testing Number { line: 44, index: 63, size: 3, value: 519 }
+testing part: ..... ❌
+testing part: .519. ❌
+testing part: ....* ✅
+testing Number { line: 44, index: 67, size: 3, value: 617 }
+testing part: ..... ❌
+testing part: .617. ❌
+testing part: *.... ✅
+testing Number { line: 44, index: 76, size: 3, value: 826 }
+testing part: ..... ❌
+testing part: .826. ❌
+testing part: ..=.. ✅
+testing Number { line: 44, index: 104, size: 3, value: 268 }
+testing part: ..... ❌
+testing part: /268. ✅
+testing Number { line: 44, index: 109, size: 3, value: 974 }
+testing part: ..... ❌
+testing part: .974. ❌
+testing part: ..... ❌
+testing Number { line: 44, index: 121, size: 3, value: 486 }
+testing part: *.... ✅
+testing Number { line: 44, index: 125, size: 3, value: 376 }
+testing part: ..... ❌
+testing part: .376. ❌
+testing part: ..... ❌
+testing Number { line: 44, index: 134, size: 3, value: 295 }
+testing part: ...@. ✅
+testing Number { line: 45, index: 3, size: 3, value: 939 }
+testing part: ..... ❌
+testing part: .939. ❌
+testing part: .*... ✅
+testing Number { line: 45, index: 15, size: 3, value: 363 }
+testing part: ..... ❌
+testing part: .363. ❌
+testing part: -.... ✅
+testing Number { line: 45, index: 35, size: 3, value: 378 }
+testing part: ..... ❌
+testing part: .378. ❌
+testing part: ....* ✅
+testing Number { line: 45, index: 48, size: 3, value: 302 }
+testing part: ...*. ✅
+testing Number { line: 45, index: 55, size: 3, value: 586 }
+testing part: ..... ❌
+testing part: .586. ❌
+testing part: ....* ✅
+testing Number { line: 45, index: 71, size: 3, value: 740 }
+testing part: ..*.. ✅
+testing Number { line: 45, index: 88, size: 3, value: 380 }
+testing part: ..*.. ✅
+testing Number { line: 45, index: 99, size: 3, value: 931 }
+testing part: ..... ❌
+testing part: .931. ❌
+testing part: ...-. ✅
+testing Number { line: 45, index: 129, size: 2, value: 12 }
+testing part: .... ❌
+testing part: .12. ❌
+testing part: ..#. ✅
+testing Number { line: 46, index: 20, size: 3, value: 387 }
+testing part: *.... ✅
+testing Number { line: 46, index: 41, size: 3, value: 588 }
+testing part: ..... ❌
+testing part: .588. ❌
+testing part: ...*. ✅
+testing Number { line: 46, index: 79, size: 3, value: 315 }
+testing part: ..... ❌
+testing part: .315. ❌
+testing part: .-... ✅
+testing Number { line: 46, index: 105, size: 3, value: 712 }
+testing part: ..... ❌
+testing part: .712. ❌
+testing part: *.... ✅
+testing Number { line: 46, index: 110, size: 3, value: 491 }
+testing part: ..... ❌
+testing part: .491. ❌
+testing part: ..... ❌
+testing Number { line: 46, index: 122, size: 3, value: 956 }
+testing part: ..... ❌
+testing part: .956. ❌
+testing part: ...*. ✅
+testing Number { line: 47, index: 1, size: 3, value: 180 }
+testing part: ...*. ✅
+testing Number { line: 47, index: 5, size: 3, value: 454 }
+testing part: ..... ❌
+testing part: .454. ❌
+testing part: .*... ✅
+testing Number { line: 47, index: 27, size: 3, value: 104 }
+testing part: ..... ❌
+testing part: .104. ❌
+testing part: ..%.. ✅
+testing Number { line: 47, index: 32, size: 3, value: 661 }
+testing part: ..... ❌
+testing part: .661. ❌
+testing part: *.... ✅
+testing Number { line: 47, index: 38, size: 2, value: 91 }
+testing part: .*.. ✅
+testing Number { line: 47, index: 57, size: 3, value: 811 }
+testing part: ..*.. ✅
+testing Number { line: 47, index: 64, size: 3, value: 370 }
+testing part: /.... ✅
+testing Number { line: 47, index: 73, size: 3, value: 471 }
+testing part: ..... ❌
+testing part: .471. ❌
+testing part: ..&.. ✅
+testing Number { line: 47, index: 84, size: 3, value: 419 }
+testing part: ..... ❌
+testing part: .419. ❌
+testing part: ..*.. ✅
+testing Number { line: 47, index: 91, size: 3, value: 804 }
+testing part: ..... ❌
+testing part: .804. ❌
+testing part: ..... ❌
+testing Number { line: 48, index: 17, size: 3, value: 464 }
+testing part: ..... ❌
+testing part: /464. ✅
+testing Number { line: 48, index: 44, size: 3, value: 243 }
+testing part: *.... ✅
+testing Number { line: 48, index: 52, size: 3, value: 578 }
+testing part: ..... ❌
+testing part: .578. ❌
+testing part: ...&. ✅
+testing Number { line: 48, index: 97, size: 3, value: 604 }
+testing part: ..... ❌
+testing part: .604. ❌
+testing part: ..... ❌
+testing Number { line: 48, index: 102, size: 3, value: 250 }
+testing part: ...*. ✅
+testing Number { line: 48, index: 110, size: 3, value: 784 }
+testing part: ..... ❌
+testing part: .784. ❌
+testing part: ...*. ✅
+testing Number { line: 48, index: 117, size: 3, value: 750 }
+testing part: ..... ❌
+testing part: .750. ❌
+testing part: ....* ✅
+testing Number { line: 48, index: 124, size: 3, value: 998 }
+testing part: .*... ✅
+testing Number { line: 49, index: 5, size: 3, value: 245 }
+testing part: .*... ✅
+testing Number { line: 49, index: 12, size: 3, value: 165 }
+testing part: ..@.. ✅
+testing Number { line: 49, index: 32, size: 3, value: 771 }
+testing part: *.... ✅
+testing Number { line: 49, index: 64, size: 3, value: 691 }
+testing part: ..... ❌
+testing part: .691. ❌
+testing part: .#... ✅
+testing Number { line: 49, index: 70, size: 3, value: 768 }
+testing part: ..... ❌
+testing part: .768. ❌
+testing part: $.... ✅
+testing Number { line: 49, index: 77, size: 3, value: 654 }
+testing part: ..... ❌
+testing part: .654. ❌
+testing part: .*... ✅
+testing Number { line: 49, index: 84, size: 3, value: 261 }
+testing part: ..*.. ✅
+testing Number { line: 49, index: 133, size: 3, value: 566 }
+testing part: ..... ❌
+testing part: .566. ❌
+testing part: .*... ✅
+testing Number { line: 50, index: 0, size: 3, value: 441 }
+testing part: .... ❌
+testing part: 441. ❌
+testing part: ...+ ✅
+testing Number { line: 50, index: 21, size: 2, value: 91 }
+testing part: .... ❌
+testing part: .91. ❌
+testing part: ./.. ✅
+testing Number { line: 50, index: 28, size: 3, value: 194 }
+testing part: ..... ❌
+testing part: .194. ❌
+testing part: ..#.. ✅
+testing Number { line: 50, index: 38, size: 3, value: 643 }
+testing part: ..... ❌
+testing part: .643. ❌
+testing part: ..*.. ✅
+testing Number { line: 50, index: 44, size: 3, value: 932 }
+testing part: ..... ❌
+testing part: .932* ✅
+testing Number { line: 50, index: 60, size: 3, value: 379 }
+testing part: ...#. ✅
+testing Number { line: 50, index: 95, size: 2, value: 86 }
+testing part: .... ❌
+testing part: .86. ❌
+testing part: .*.. ✅
+testing Number { line: 50, index: 110, size: 3, value: 940 }
+testing part: ...*. ✅
+testing Number { line: 50, index: 115, size: 3, value: 263 }
+testing part: ..... ❌
+testing part: .263. ❌
+testing part: *.... ✅
+testing Number { line: 50, index: 119, size: 3, value: 638 }
+testing part: ..*.. ✅
+testing Number { line: 51, index: 48, size: 3, value: 344 }
+testing part: *.... ✅
+testing Number { line: 51, index: 54, size: 3, value: 795 }
+testing part: ..... ❌
+testing part: .795. ❌
+testing part: ..... ❌
+testing Number { line: 51, index: 75, size: 3, value: 991 }
+testing part: ...*. ✅
+testing Number { line: 51, index: 88, size: 3, value: 544 }
+testing part: ..... ❌
+testing part: .544. ❌
+testing part: ....* ✅
+testing Number { line: 51, index: 125, size: 3, value: 767 }
+testing part: ..... ❌
+testing part: .767. ❌
+testing part: .*... ✅
+testing Number { line: 51, index: 131, size: 3, value: 266 }
+testing part: ...*. ✅
+testing Number { line: 52, index: 10, size: 3, value: 708 }
+testing part: ..... ❌
+testing part: .708. ❌
+testing part: ....= ✅
+testing Number { line: 52, index: 15, size: 3, value: 727 }
+testing part: ...%. ✅
+testing Number { line: 52, index: 23, size: 3, value: 191 }
+testing part: ..... ❌
+testing part: .191$ ✅
+testing Number { line: 52, index: 39, size: 3, value: 698 }
+testing part: .*... ✅
+testing Number { line: 52, index: 66, size: 3, value: 990 }
+testing part: ..... ❌
+testing part: .990. ❌
+testing part: ....* ✅
+testing Number { line: 52, index: 96, size: 3, value: 308 }
+testing part: *.... ✅
+testing Number { line: 52, index: 113, size: 3, value: 325 }
+testing part: ..*.. ✅
+testing Number { line: 52, index: 135, size: 2, value: 44 }
+testing part: .... ❌
+testing part: .44. ❌
+testing part: *... ✅
+testing Number { line: 53, index: 3, size: 2, value: 18 }
+testing part: .... ❌
+testing part: .18. ❌
+testing part: ../. ✅
+testing Number { line: 53, index: 6, size: 3, value: 397 }
+testing part: ..-.. ✅
+testing Number { line: 53, index: 19, size: 2, value: 93 }
+testing part: .... ❌
+testing part: .93. ❌
+testing part: ..%. ✅
+testing Number { line: 53, index: 30, size: 3, value: 649 }
+testing part: ....* ✅
+testing Number { line: 53, index: 34, size: 3, value: 900 }
+testing part: *.... ✅
+testing Number { line: 53, index: 46, size: 2, value: 62 }
+testing part: .=.. ✅
+testing Number { line: 53, index: 61, size: 3, value: 322 }
+testing part: ..... ❌
+testing part: .322. ❌
+testing part: ....* ✅
+testing Number { line: 53, index: 84, size: 3, value: 339 }
+testing part: ..+.. ✅
+testing Number { line: 53, index: 91, size: 3, value: 619 }
+testing part: .*... ✅
+testing Number { line: 53, index: 104, size: 3, value: 404 }
+testing part: ...@. ✅
+testing Number { line: 53, index: 117, size: 3, value: 540 }
+testing part: ..... ❌
+testing part: .540. ❌
+testing part: ..... ❌
+testing Number { line: 54, index: 49, size: 3, value: 742 }
+testing part: ....- ✅
+testing Number { line: 54, index: 76, size: 3, value: 196 }
+testing part: ..@.. ✅
+testing Number { line: 54, index: 95, size: 3, value: 874 }
+testing part: ..... ❌
+testing part: .874. ❌
+testing part: ..&.. ✅
+testing Number { line: 54, index: 99, size: 3, value: 205 }
+testing part: ..... ❌
+testing part: .205. ❌
+testing part: ...*. ✅
+testing Number { line: 54, index: 110, size: 2, value: 96 }
+testing part: .... ❌
+testing part: .96# ✅
+testing Number { line: 54, index: 127, size: 3, value: 203 }
+testing part: .../. ✅
+testing Number { line: 54, index: 131, size: 3, value: 224 }
+testing part: ....* ✅
+testing Number { line: 55, index: 9, size: 3, value: 704 }
+testing part: ..... ❌
+testing part: .704. ❌
+testing part: *.... ✅
+testing Number { line: 55, index: 15, size: 3, value: 727 }
+testing part: ..... ❌
+testing part: .727. ❌
+testing part: ...*. ✅
+testing Number { line: 55, index: 35, size: 3, value: 496 }
+testing part: ..... ❌
+testing part: .496. ❌
+testing part: ..... ❌
+testing Number { line: 55, index: 54, size: 3, value: 135 }
+testing part: ..... ❌
+testing part: .135. ❌
+testing part: ..*.. ✅
+testing Number { line: 55, index: 61, size: 3, value: 769 }
+testing part: ....* ✅
+testing Number { line: 55, index: 118, size: 3, value: 757 }
+testing part: ..... ❌
+testing part: .757. ❌
+testing part: ....* ✅
+testing Number { line: 56, index: 20, size: 3, value: 424 }
+testing part: ..... ❌
+testing part: .424. ❌
+testing part: *.... ✅
+testing Number { line: 56, index: 42, size: 3, value: 714 }
+testing part: ....* ✅
+testing Number { line: 56, index: 46, size: 1, value: 5 }
+testing part: *.. ✅
+testing Number { line: 56, index: 72, size: 3, value: 884 }
+testing part: ../.. ✅
+testing Number { line: 56, index: 90, size: 3, value: 114 }
+testing part: ..%.. ✅
+testing Number { line: 56, index: 100, size: 3, value: 674 }
+testing part: ..*.. ✅
+testing Number { line: 56, index: 104, size: 3, value: 144 }
+testing part: ../.. ✅
+testing Number { line: 56, index: 109, size: 2, value: 83 }
+testing part: =... ✅
+testing Number { line: 56, index: 122, size: 3, value: 302 }
+testing part: ..... ❌
+testing part: *302. ✅
+testing Number { line: 57, index: 8, size: 2, value: 29 }
+testing part: .*.. ✅
+testing Number { line: 57, index: 14, size: 3, value: 179 }
+testing part: ....* ✅
+testing Number { line: 57, index: 32, size: 3, value: 104 }
+testing part: ..&.. ✅
+testing Number { line: 57, index: 53, size: 3, value: 531 }
+testing part: ...*. ✅
+testing Number { line: 57, index: 60, size: 3, value: 629 }
+testing part: ..... ❌
+testing part: .629. ❌
+testing part: ..... ❌
+testing Number { line: 57, index: 64, size: 3, value: 455 }
+testing part: ....@ ✅
+testing Number { line: 57, index: 85, size: 3, value: 473 }
+testing part: ..... ❌
+testing part: .473. ❌
+testing part: .*... ✅
+testing Number { line: 57, index: 94, size: 3, value: 300 }
+testing part: ..... ❌
+testing part: .300. ❌
+testing part: %.... ✅
+testing Number { line: 57, index: 117, size: 3, value: 254 }
+testing part: ..... ❌
+testing part: .254. ❌
+testing part: ...*. ✅
+testing Number { line: 57, index: 134, size: 3, value: 640 }
+testing part: ...%. ✅
+testing Number { line: 58, index: 18, size: 3, value: 296 }
+testing part: ..*.. ✅
+testing Number { line: 58, index: 76, size: 1, value: 1 }
+testing part: ... ❌
+testing part: .1. ❌
+testing part: ... ❌
+testing Number { line: 58, index: 108, size: 3, value: 548 }
+testing part: ..... ❌
+testing part: .548. ❌
+testing part: *.... ✅
+testing Number { line: 58, index: 125, size: 3, value: 103 }
+testing part: ..... ❌
+testing part: .103. ❌
+testing part: ....* ✅
+testing Number { line: 59, index: 4, size: 3, value: 381 }
+testing part: ..... ❌
+testing part: .381. ❌
+testing part: ...*. ✅
+testing Number { line: 59, index: 34, size: 3, value: 365 }
+testing part: ..... ❌
+testing part: .365# ✅
+testing Number { line: 59, index: 40, size: 3, value: 713 }
+testing part: ..... ❌
+testing part: .713. ❌
+testing part: ...%. ✅
+testing Number { line: 59, index: 44, size: 3, value: 282 }
+testing part: ..... ❌
+testing part: .282. ❌
+testing part: ..... ❌
+testing Number { line: 59, index: 55, size: 3, value: 744 }
+testing part: ..... ❌
+testing part: %744. ✅
+testing Number { line: 59, index: 85, size: 3, value: 709 }
+testing part: .*... ✅
+testing Number { line: 59, index: 99, size: 3, value: 431 }
+testing part: ..... ❌
+testing part: .431. ❌
+testing part: ..... ❌
+testing Number { line: 59, index: 120, size: 3, value: 837 }
+testing part: *.... ✅
+testing Number { line: 59, index: 129, size: 1, value: 9 }
+testing part: ... ❌
+testing part: *9. ✅
+testing Number { line: 60, index: 8, size: 2, value: 90 }
+testing part: .... ❌
+testing part: .90. ❌
+testing part: .+.. ✅
+testing Number { line: 60, index: 15, size: 3, value: 347 }
+testing part: ..... ❌
+testing part: .347. ❌
+testing part: ..*.. ✅
+testing Number { line: 60, index: 19, size: 3, value: 179 }
+testing part: ..... ❌
+testing part: .179# ✅
+testing Number { line: 60, index: 50, size: 3, value: 359 }
+testing part: ..... ❌
+testing part: .359. ❌
+testing part: *.... ✅
+testing Number { line: 60, index: 63, size: 2, value: 92 }
+testing part: .... ❌
+testing part: .92. ❌
+testing part: .... ❌
+testing Number { line: 60, index: 77, size: 3, value: 304 }
+testing part: ..../ ✅
+testing Number { line: 60, index: 89, size: 3, value: 923 }
+testing part: ...#. ✅
+testing Number { line: 60, index: 93, size: 3, value: 446 }
+testing part: ...=. ✅
+testing Number { line: 60, index: 103, size: 3, value: 385 }
+testing part: ...$. ✅
+testing Number { line: 60, index: 107, size: 3, value: 699 }
+testing part: .*... ✅
+testing Number { line: 60, index: 115, size: 3, value: 749 }
+testing part: *.... ✅
+testing Number { line: 60, index: 132, size: 3, value: 193 }
+testing part: ....* ✅
+testing Number { line: 60, index: 136, size: 3, value: 206 }
+testing part: *.... ✅
+testing Number { line: 61, index: 4, size: 3, value: 922 }
+testing part: ...*. ✅
+testing Number { line: 61, index: 25, size: 3, value: 197 }
+testing part: ..... ❌
+testing part: -197. ✅
+testing Number { line: 61, index: 57, size: 3, value: 128 }
+testing part: ..... ❌
+testing part: .128. ❌
+testing part: .$... ✅
+testing Number { line: 61, index: 68, size: 3, value: 273 }
+testing part: ..... ❌
+testing part: .273. ❌
+testing part: *.... ✅
+testing Number { line: 61, index: 81, size: 3, value: 758 }
+testing part: ...*. ✅
+testing Number { line: 61, index: 98, size: 3, value: 439 }
+testing part: ..... ❌
+testing part: .439. ❌
+testing part: .=... ✅
+testing Number { line: 61, index: 120, size: 3, value: 650 }
+testing part: ..... ❌
+testing part: .650* ✅
+testing Number { line: 61, index: 124, size: 2, value: 54 }
+testing part: .... ❌
+testing part: *54. ✅
+testing Number { line: 61, index: 127, size: 3, value: 736 }
+testing part: ..... ❌
+testing part: .736# ✅
+testing Number { line: 62, index: 16, size: 3, value: 817 }
+testing part: .*... ✅
+testing Number { line: 62, index: 32, size: 3, value: 152 }
+testing part: ..... ❌
+testing part: .152. ❌
+testing part: *.... ✅
+testing Number { line: 62, index: 37, size: 3, value: 594 }
+testing part: ..... ❌
+testing part: .594. ❌
+testing part: ..... ❌
+testing Number { line: 62, index: 42, size: 3, value: 949 }
+testing part: ..... ❌
+testing part: .949. ❌
+testing part: ..*.. ✅
+testing Number { line: 62, index: 47, size: 3, value: 807 }
+testing part: ...*. ✅
+testing Number { line: 62, index: 61, size: 3, value: 224 }
+testing part: ..... ❌
+testing part: .224. ❌
+testing part: ..%.. ✅
+testing Number { line: 62, index: 73, size: 3, value: 124 }
+testing part: ...@. ✅
+testing Number { line: 62, index: 88, size: 3, value: 889 }
+testing part: ..... ❌
+testing part: .889. ❌
+testing part: ...*. ✅
+testing Number { line: 62, index: 134, size: 3, value: 625 }
+testing part: ..... ❌
+testing part: .625. ❌
+testing part: .%... ✅
+testing Number { line: 63, index: 4, size: 3, value: 139 }
+testing part: ..... ❌
+testing part: .139. ❌
+testing part: ..... ❌
+testing Number { line: 63, index: 11, size: 3, value: 667 }
+testing part: ..... ❌
+testing part: .667. ❌
+testing part: .*... ✅
+testing Number { line: 63, index: 20, size: 3, value: 239 }
+testing part: ..-.. ✅
+testing Number { line: 63, index: 51, size: 3, value: 387 }
+testing part: ..... ❌
+testing part: .387. ❌
+testing part: ....* ✅
+testing Number { line: 63, index: 65, size: 3, value: 806 }
+testing part: ...*. ✅
+testing Number { line: 63, index: 93, size: 3, value: 788 }
+testing part: ..... ❌
+testing part: .788. ❌
+testing part: ....% ✅
+testing Number { line: 63, index: 100, size: 3, value: 632 }
+testing part: ..... ❌
+testing part: .632. ❌
+testing part: ..-.. ✅
+testing Number { line: 63, index: 115, size: 1, value: 8 }
+testing part: ... ❌
+testing part: =8. ✅
+testing Number { line: 63, index: 122, size: 3, value: 584 }
+testing part: ..... ❌
+testing part: .584- ✅
+testing Number { line: 64, index: 29, size: 3, value: 280 }
+testing part: ...*. ✅
+testing Number { line: 64, index: 43, size: 2, value: 11 }
+testing part: .*.. ✅
+testing Number { line: 64, index: 55, size: 3, value: 726 }
+testing part: ..... ❌
+testing part: *726. ✅
+testing Number { line: 64, index: 70, size: 3, value: 181 }
+testing part: ..... ❌
+testing part: .181. ❌
+testing part: ....- ✅
+testing Number { line: 64, index: 79, size: 3, value: 761 }
+testing part: /.... ✅
+testing Number { line: 64, index: 89, size: 2, value: 66 }
+testing part: ..*. ✅
+testing Number { line: 64, index: 118, size: 2, value: 64 }
+testing part: .... ❌
+testing part: .64. ❌
+testing part: *... ✅
+testing Number { line: 64, index: 131, size: 2, value: 14 }
+testing part: ..*. ✅
+testing Number { line: 65, index: 12, size: 3, value: 742 }
+testing part: *.... ✅
+testing Number { line: 65, index: 16, size: 3, value: 736 }
+testing part: ..... ❌
+testing part: .736. ❌
+testing part: ..... ❌
+testing Number { line: 65, index: 20, size: 3, value: 725 }
+testing part: ..... ❌
+testing part: .725. ❌
+testing part: ..*.. ✅
+testing Number { line: 65, index: 33, size: 3, value: 708 }
+testing part: ..... ❌
+testing part: .708. ❌
+testing part: .=... ✅
+testing Number { line: 65, index: 37, size: 3, value: 667 }
+testing part: ..... ❌
+testing part: .667. ❌
+testing part: ..... ❌
+testing Number { line: 65, index: 50, size: 3, value: 332 }
+testing part: ..... ❌
+testing part: .332. ❌
+testing part: ....* ✅
+testing Number { line: 65, index: 60, size: 3, value: 828 }
+testing part: ..... ❌
+testing part: .828* ✅
+testing Number { line: 65, index: 64, size: 3, value: 750 }
+testing part: ..... ❌
+testing part: *750. ✅
+testing Number { line: 65, index: 83, size: 3, value: 425 }
+testing part: ..-.. ✅
+testing Number { line: 65, index: 109, size: 3, value: 944 }
+testing part: ..... ❌
+testing part: .944. ❌
+testing part: ..*.. ✅
+testing Number { line: 65, index: 137, size: 3, value: 926 }
+testing part: .... ❌
+testing part: .926 ❌
+testing part: .... ❌
+testing Number { line: 66, index: 1, size: 3, value: 719 }
+testing part: ..... ❌
+testing part: .719. ❌
+testing part: ..../ ✅
+testing Number { line: 66, index: 7, size: 3, value: 110 }
+testing part: ..... ❌
+testing part: .110. ❌
+testing part: ....* ✅
+testing Number { line: 66, index: 27, size: 3, value: 348 }
+testing part: ..... ❌
+testing part: .348. ❌
+testing part: .*... ✅
+testing Number { line: 66, index: 44, size: 3, value: 121 }
+testing part: ..... ❌
+testing part: .121. ❌
+testing part: ...&. ✅
+testing Number { line: 66, index: 102, size: 3, value: 961 }
+testing part: ..... ❌
+testing part: .961. ❌
+testing part: *.... ✅
+testing Number { line: 66, index: 118, size: 3, value: 971 }
+testing part: *.... ✅
+testing Number { line: 67, index: 11, size: 3, value: 629 }
+testing part: ..... ❌
+testing part: *629. ✅
+testing Number { line: 67, index: 22, size: 3, value: 830 }
+testing part: *.... ✅
+testing Number { line: 67, index: 40, size: 2, value: 91 }
+testing part: .... ❌
+testing part: .91. ❌
+testing part: .... ❌
+testing Number { line: 67, index: 49, size: 3, value: 241 }
+testing part: ..... ❌
+testing part: .241. ❌
+testing part: ...*. ✅
+testing Number { line: 67, index: 54, size: 3, value: 491 }
+testing part: *.... ✅
+testing Number { line: 67, index: 60, size: 3, value: 930 }
+testing part: ..... ❌
+testing part: .930. ❌
+testing part: ....* ✅
+testing Number { line: 67, index: 75, size: 3, value: 561 }
+testing part: ..... ❌
+testing part: .561. ❌
+testing part: ..... ❌
+testing Number { line: 67, index: 94, size: 3, value: 889 }
+testing part: .*... ✅
+testing Number { line: 67, index: 106, size: 3, value: 710 }
+testing part: ..... ❌
+testing part: .710. ❌
+testing part: ...*. ✅
+testing Number { line: 67, index: 110, size: 3, value: 333 }
+testing part: .*... ✅
+testing Number { line: 67, index: 127, size: 3, value: 163 }
+testing part: ..... ❌
+testing part: .163. ❌
+testing part: .../. ✅
+testing Number { line: 67, index: 133, size: 3, value: 311 }
+testing part: +.... ✅
+testing Number { line: 68, index: 26, size: 3, value: 252 }
+testing part: ..*.. ✅
+testing Number { line: 68, index: 64, size: 3, value: 270 }
+testing part: ..... ❌
+testing part: *270. ✅
+testing Number { line: 68, index: 90, size: 3, value: 165 }
+testing part: ..... ❌
+testing part: .165. ❌
+testing part: ....- ✅
+testing Number { line: 68, index: 98, size: 3, value: 208 }
+testing part: ....* ✅
+testing Number { line: 68, index: 137, size: 3, value: 694 }
+testing part: .... ❌
+testing part: .694 ❌
+testing part: *... ✅
+testing Number { line: 69, index: 3, size: 3, value: 914 }
+testing part: ....% ✅
+testing Number { line: 69, index: 9, size: 3, value: 126 }
+testing part: ..... ❌
+testing part: .126. ❌
+testing part: ..... ❌
+testing Number { line: 69, index: 15, size: 3, value: 267 }
+testing part: ..... ❌
+testing part: .267. ❌
+testing part: *.... ✅
+testing Number { line: 69, index: 19, size: 3, value: 183 }
+testing part: ..... ❌
+testing part: .183. ❌
+testing part: ..... ❌
+testing Number { line: 69, index: 30, size: 3, value: 952 }
+testing part: .../. ✅
+testing Number { line: 69, index: 36, size: 3, value: 645 }
+testing part: ..... ❌
+testing part: $645. ✅
+testing Number { line: 69, index: 45, size: 3, value: 414 }
+testing part: ..... ❌
+testing part: .414. ❌
+testing part: .../. ✅
+testing Number { line: 69, index: 49, size: 3, value: 822 }
+testing part: ...*. ✅
+testing Number { line: 69, index: 84, size: 2, value: 69 }
+testing part: .... ❌
+testing part: .69. ❌
+testing part: .*.. ✅
+testing Number { line: 69, index: 107, size: 3, value: 112 }
+testing part: ..*.. ✅
+testing Number { line: 69, index: 111, size: 3, value: 464 }
+testing part: ..... ❌
+testing part: .464. ❌
+testing part: ..... ❌
+testing Number { line: 69, index: 116, size: 3, value: 267 }
+testing part: ..... ❌
+testing part: .267. ❌
+testing part: -.... ✅
+testing Number { line: 69, index: 123, size: 3, value: 359 }
+testing part: ..... ❌
+testing part: .359. ❌
+testing part: ..... ❌
+testing Number { line: 70, index: 13, size: 1, value: 7 }
+testing part: ... ❌
+testing part: .7* ✅
+testing Number { line: 70, index: 41, size: 3, value: 806 }
+testing part: ..... ❌
+testing part: .806. ❌
+testing part: ...*. ✅
+testing Number { line: 70, index: 53, size: 3, value: 931 }
+testing part: ..... ❌
+testing part: .931. ❌
+testing part: *.... ✅
+testing Number { line: 70, index: 67, size: 3, value: 355 }
+testing part: ..... ❌
+testing part: .355. ❌
+testing part: ...*. ✅
+testing Number { line: 70, index: 89, size: 3, value: 928 }
+testing part: ..... ❌
+testing part: .928. ❌
+testing part: ....* ✅
+testing Number { line: 70, index: 103, size: 3, value: 854 }
+testing part: ..=.. ✅
+testing Number { line: 70, index: 131, size: 3, value: 993 }
+testing part: ..... ❌
+testing part: *993. ✅
+testing Number { line: 70, index: 137, size: 3, value: 101 }
+testing part: *... ✅
+testing Number { line: 71, index: 0, size: 3, value: 439 }
+testing part: .... ❌
+testing part: 439. ❌
+testing part: .... ❌
+testing Number { line: 71, index: 4, size: 3, value: 897 }
+testing part: ..... ❌
+testing part: .897. ❌
+testing part: ....* ✅
+testing Number { line: 71, index: 30, size: 1, value: 8 }
+testing part: ... ❌
+testing part: .8. ❌
+testing part: ... ❌
+testing Number { line: 71, index: 37, size: 3, value: 381 }
+testing part: ..... ❌
+testing part: .381. ❌
+testing part: .$... ✅
+testing Number { line: 71, index: 57, size: 3, value: 748 }
+testing part: ..... ❌
+testing part: .748. ❌
+testing part: ..=.. ✅
+testing Number { line: 71, index: 62, size: 3, value: 987 }
+testing part: *.... ✅
+testing Number { line: 71, index: 82, size: 3, value: 437 }
+testing part: ...*. ✅
+testing Number { line: 71, index: 97, size: 3, value: 954 }
+testing part: ..... ❌
+testing part: .954. ❌
+testing part: *.... ✅
+testing Number { line: 72, index: 8, size: 3, value: 595 }
+testing part: ..... ❌
+testing part: *595. ✅
+testing Number { line: 72, index: 15, size: 3, value: 783 }
+testing part: ....% ✅
+testing Number { line: 72, index: 26, size: 2, value: 49 }
+testing part: .... ❌
+testing part: .49. ❌
+testing part: ...* ✅
+testing Number { line: 72, index: 33, size: 3, value: 110 }
+testing part: ..... ❌
+testing part: .110. ❌
+testing part: ...*. ✅
+testing Number { line: 72, index: 41, size: 3, value: 675 }
+testing part: ...*. ✅
+testing Number { line: 72, index: 47, size: 1, value: 8 }
+testing part: ... ❌
+testing part: .8. ❌
+testing part: *.. ✅
+testing Number { line: 72, index: 51, size: 2, value: 60 }
+testing part: ..*. ✅
+testing Number { line: 72, index: 67, size: 3, value: 981 }
+testing part: ...*. ✅
+testing Number { line: 72, index: 89, size: 3, value: 730 }
+testing part: ....* ✅
+testing Number { line: 72, index: 110, size: 3, value: 336 }
+testing part: ..... ❌
+testing part: .336. ❌
+testing part: .-... ✅
+testing Number { line: 72, index: 120, size: 3, value: 120 }
+testing part: ....* ✅
+testing Number { line: 72, index: 124, size: 3, value: 790 }
+testing part: *.... ✅
+testing Number { line: 72, index: 137, size: 3, value: 386 }
+testing part: .... ❌
+testing part: .386 ❌
+testing part: .... ❌
+testing Number { line: 73, index: 12, size: 2, value: 90 }
+testing part: .... ❌
+testing part: .90. ❌
+testing part: *... ✅
+testing Number { line: 73, index: 29, size: 3, value: 212 }
+testing part: ..... ❌
+testing part: *212. ✅
+testing Number { line: 73, index: 54, size: 3, value: 985 }
+testing part: ..... ❌
+testing part: .985. ❌
+testing part: *.... ✅
+testing Number { line: 73, index: 62, size: 3, value: 153 }
+testing part: ..... ❌
+testing part: .153. ❌
+testing part: ..... ❌
+testing Number { line: 73, index: 76, size: 2, value: 12 }
+testing part: ...& ✅
+testing Number { line: 73, index: 81, size: 3, value: 912 }
+testing part: ..... ❌
+testing part: .912* ✅
+testing Number { line: 73, index: 85, size: 3, value: 383 }
+testing part: ..... ❌
+testing part: *383. ✅
+testing Number { line: 73, index: 94, size: 3, value: 665 }
+testing part: ...*. ✅
+testing Number { line: 73, index: 102, size: 3, value: 754 }
+testing part: ..... ❌
+testing part: .754. ❌
+testing part: ...=. ✅
+testing Number { line: 73, index: 132, size: 3, value: 950 }
+testing part: ..... ❌
+testing part: .950. ❌
+testing part: ...*. ✅
+testing Number { line: 74, index: 6, size: 3, value: 790 }
+testing part: ..... ❌
+testing part: .790# ✅
+testing Number { line: 74, index: 20, size: 3, value: 896 }
+testing part: ..... ❌
+testing part: .896@ ✅
+testing Number { line: 74, index: 33, size: 3, value: 773 }
+testing part: ...*. ✅
+testing Number { line: 74, index: 40, size: 3, value: 777 }
+testing part: ..... ❌
+testing part: .777. ❌
+testing part: ...*. ✅
+testing Number { line: 74, index: 45, size: 3, value: 581 }
+testing part: ..*.. ✅
+testing Number { line: 74, index: 50, size: 3, value: 514 }
+testing part: ..... ❌
+testing part: .514* ✅
+testing Number { line: 74, index: 58, size: 3, value: 910 }
+testing part: ..... ❌
+testing part: .910. ❌
+testing part: .*... ✅
+testing Number { line: 74, index: 66, size: 1, value: 5 }
+testing part: ... ❌
+testing part: .5. ❌
+testing part: ... ❌
+testing Number { line: 74, index: 72, size: 3, value: 579 }
+testing part: ..*.. ✅
+testing Number { line: 75, index: 11, size: 3, value: 496 }
+testing part: .*... ✅
+testing Number { line: 75, index: 25, size: 3, value: 347 }
+testing part: ..... ❌
+testing part: .347. ❌
+testing part: ..... ❌
+testing Number { line: 75, index: 109, size: 3, value: 790 }
+testing part: ....# ✅
+testing Number { line: 75, index: 126, size: 3, value: 334 }
+testing part: ..... ❌
+testing part: .334. ❌
+testing part: ..*.. ✅
+testing Number { line: 75, index: 135, size: 3, value: 912 }
+testing part: *.... ✅
+testing Number { line: 76, index: 0, size: 3, value: 692 }
+testing part: ...& ✅
+testing Number { line: 76, index: 15, size: 3, value: 609 }
+testing part: ..... ❌
+testing part: .609. ❌
+testing part: *.... ✅
+testing Number { line: 76, index: 30, size: 3, value: 694 }
+testing part: ..... ❌
+testing part: .694. ❌
+testing part: ....* ✅
+testing Number { line: 76, index: 43, size: 3, value: 693 }
+testing part: *.... ✅
+testing Number { line: 76, index: 49, size: 3, value: 213 }
+testing part: ..... ❌
+testing part: .213. ❌
+testing part: ...=. ✅
+testing Number { line: 76, index: 56, size: 3, value: 620 }
+testing part: ...*. ✅
+testing Number { line: 76, index: 65, size: 3, value: 695 }
+testing part: ..... ❌
+testing part: .695. ❌
+testing part: *.... ✅
+testing Number { line: 76, index: 74, size: 3, value: 871 }
+testing part: ..... ❌
+testing part: .871. ❌
+testing part: ..... ❌
+testing Number { line: 76, index: 79, size: 3, value: 385 }
+testing part: ../.. ✅
+testing Number { line: 76, index: 89, size: 2, value: 82 }
+testing part: .... ❌
+testing part: .82. ❌
+testing part: .... ❌
+testing Number { line: 76, index: 101, size: 3, value: 785 }
+testing part: ..... ❌
+testing part: .785. ❌
+testing part: ....* ✅
+testing Number { line: 76, index: 130, size: 3, value: 163 }
+testing part: ..... ❌
+testing part: .163. ❌
+testing part: ....* ✅
+testing Number { line: 77, index: 21, size: 3, value: 984 }
+testing part: ..&.. ✅
+testing Number { line: 77, index: 106, size: 3, value: 545 }
+testing part: ..... ❌
+testing part: .545. ❌
+testing part: ..... ❌
+testing Number { line: 77, index: 125, size: 3, value: 978 }
+testing part: ...*. ✅
+testing Number { line: 78, index: 6, size: 3, value: 971 }
+testing part: ....# ✅
+testing Number { line: 78, index: 12, size: 3, value: 477 }
+testing part: ...*. ✅
+testing Number { line: 78, index: 28, size: 3, value: 465 }
+testing part: ..... ❌
+testing part: .465. ❌
+testing part: ...+. ✅
+testing Number { line: 78, index: 37, size: 3, value: 196 }
+testing part: ..... ❌
+testing part: .196* ✅
+testing Number { line: 78, index: 41, size: 3, value: 313 }
+testing part: ..... ❌
+testing part: *313. ✅
+testing Number { line: 78, index: 54, size: 3, value: 447 }
+testing part: ..... ❌
+testing part: .447. ❌
+testing part: =.... ✅
+testing Number { line: 78, index: 64, size: 3, value: 766 }
+testing part: .*... ✅
+testing Number { line: 78, index: 73, size: 2, value: 49 }
+testing part: .... ❌
+testing part: .49. ❌
+testing part: .... ❌
+testing Number { line: 78, index: 82, size: 3, value: 126 }
+testing part: ..... ❌
+testing part: .126* ✅
+testing Number { line: 78, index: 86, size: 3, value: 480 }
+testing part: ..... ❌
+testing part: *480. ✅
+testing Number { line: 78, index: 102, size: 3, value: 798 }
+testing part: ...*. ✅
+testing Number { line: 78, index: 111, size: 3, value: 792 }
+testing part: ..-.. ✅
+testing Number { line: 78, index: 116, size: 3, value: 359 }
+testing part: ..... ❌
+testing part: .359* ✅
+testing Number { line: 78, index: 120, size: 3, value: 193 }
+testing part: ..... ❌
+testing part: *193. ✅
+testing Number { line: 78, index: 134, size: 3, value: 837 }
+testing part: *.... ✅
+testing Number { line: 79, index: 16, size: 3, value: 157 }
+testing part: ..... ❌
+testing part: .157. ❌
+testing part: @.... ✅
+testing Number { line: 79, index: 49, size: 3, value: 773 }
+testing part: ..... ❌
+testing part: .773. ❌
+testing part: ...@. ✅
+testing Number { line: 79, index: 68, size: 3, value: 752 }
+testing part: ..... ❌
+testing part: .752$ ✅
+testing Number { line: 79, index: 92, size: 3, value: 447 }
+testing part: ..... ❌
+testing part: .447* ✅
+testing Number { line: 79, index: 96, size: 3, value: 565 }
+testing part: ..... ❌
+testing part: *565. ✅
+testing Number { line: 79, index: 126, size: 2, value: 53 }
+testing part: .... ❌
+testing part: *53. ✅
+testing Number { line: 80, index: 1, size: 3, value: 384 }
+testing part: ..... ❌
+testing part: .384% ✅
+testing Number { line: 80, index: 25, size: 3, value: 449 }
+testing part: ..... ❌
+testing part: .449. ❌
+testing part: ....@ ✅
+testing Number { line: 80, index: 40, size: 3, value: 470 }
+testing part: ..... ❌
+testing part: .470. ❌
+testing part: ..... ❌
+testing Number { line: 80, index: 45, size: 3, value: 749 }
+testing part: ..... ❌
+testing part: .749. ❌
+testing part: ...*. ✅
+testing Number { line: 80, index: 62, size: 3, value: 792 }
+testing part: ..... ❌
+testing part: @792. ✅
+testing Number { line: 80, index: 79, size: 3, value: 138 }
+testing part: ..... ❌
+testing part: .138. ❌
+testing part: ...@. ✅
+testing Number { line: 80, index: 84, size: 3, value: 527 }
+testing part: ..... ❌
+testing part: .527. ❌
+testing part: ...*. ✅
+testing Number { line: 80, index: 110, size: 3, value: 339 }
+testing part: ..... ❌
+testing part: .339. ❌
+testing part: .*... ✅
+testing Number { line: 80, index: 118, size: 3, value: 299 }
+testing part: ..... ❌
+testing part: .299. ❌
+testing part: -.... ✅
+testing Number { line: 80, index: 122, size: 3, value: 505 }
+testing part: ....* ✅
+testing Number { line: 80, index: 136, size: 3, value: 287 }
+testing part: ..... ❌
+testing part: .287. ❌
+testing part: ..... ❌
+testing Number { line: 81, index: 6, size: 3, value: 691 }
+testing part: ..... ❌
+testing part: .691. ❌
+testing part: *.... ✅
+testing Number { line: 81, index: 17, size: 3, value: 700 }
+testing part: ..... ❌
+testing part: .700. ❌
+testing part: ...*. ✅
+testing Number { line: 81, index: 35, size: 2, value: 96 }
+testing part: .... ❌
+testing part: .96. ❌
+testing part: .... ❌
+testing Number { line: 81, index: 56, size: 3, value: 721 }
+testing part: ..... ❌
+testing part: .721* ✅
+testing Number { line: 81, index: 90, size: 3, value: 942 }
+testing part: ..... ❌
+testing part: .942. ❌
+testing part: ...+. ✅
+testing Number { line: 81, index: 99, size: 3, value: 845 }
+testing part: ..... ❌
+testing part: .845. ❌
+testing part: ..... ❌
+testing Number { line: 81, index: 127, size: 3, value: 713 }
+testing part: ..... ❌
+testing part: .713. ❌
+testing part: ..&.. ✅
+testing Number { line: 82, index: 12, size: 3, value: 260 }
+testing part: ..... ❌
+testing part: .260/ ✅
+testing Number { line: 82, index: 47, size: 3, value: 491 }
+testing part: .*... ✅
+testing Number { line: 82, index: 52, size: 3, value: 452 }
+testing part: ..... ❌
+testing part: .452. ❌
+testing part: ..=.. ✅
+testing Number { line: 82, index: 60, size: 3, value: 336 }
+testing part: *.... ✅
+testing Number { line: 82, index: 86, size: 2, value: 73 }
+testing part: .*.. ✅
+testing Number { line: 82, index: 95, size: 3, value: 960 }
+testing part: ..... ❌
+testing part: .960. ❌
+testing part: ....# ✅
+testing Number { line: 82, index: 108, size: 3, value: 238 }
+testing part: ...*. ✅
+testing Number { line: 82, index: 122, size: 3, value: 163 }
+testing part: ..... ❌
+testing part: .163$ ✅
+testing Number { line: 83, index: 4, size: 3, value: 689 }
+testing part: ..*.. ✅
+testing Number { line: 83, index: 20, size: 3, value: 831 }
+testing part: *.... ✅
+testing Number { line: 83, index: 26, size: 3, value: 282 }
+testing part: ..... ❌
+testing part: .282. ❌
+testing part: ..... ❌
+testing Number { line: 83, index: 33, size: 3, value: 709 }
+testing part: ..... ❌
+testing part: .709. ❌
+testing part: .../. ✅
+testing Number { line: 83, index: 37, size: 3, value: 960 }
+testing part: ..... ❌
+testing part: .960. ❌
+testing part: ..... ❌
+testing Number { line: 83, index: 67, size: 3, value: 204 }
+testing part: ..... ❌
+testing part: .204. ❌
+testing part: ..... ❌
+testing Number { line: 83, index: 113, size: 2, value: 59 }
+testing part: .... ❌
+testing part: .59. ❌
+testing part: .... ❌
+testing Number { line: 83, index: 118, size: 2, value: 97 }
+testing part: .... ❌
+testing part: .97. ❌
+testing part: .... ❌
+testing Number { line: 83, index: 130, size: 3, value: 199 }
+testing part: ...=. ✅
+testing Number { line: 83, index: 135, size: 3, value: 111 }
+testing part: @.... ✅
+testing Number { line: 84, index: 49, size: 3, value: 498 }
+testing part: ..... ❌
+testing part: .498. ❌
+testing part: *.... ✅
+testing Number { line: 84, index: 74, size: 3, value: 557 }
+testing part: ..... ❌
+testing part: .557. ❌
+testing part: ....* ✅
+testing Number { line: 84, index: 93, size: 3, value: 972 }
+testing part: ..... ❌
+testing part: .972. ❌
+testing part: ..*.. ✅
+testing Number { line: 84, index: 108, size: 3, value: 450 }
+testing part: ..... ❌
+testing part: .450. ❌
+testing part: *.... ✅
+testing Number { line: 85, index: 13, size: 3, value: 653 }
+testing part: ..... ❌
+testing part: .653. ❌
+testing part: ..*.. ✅
+testing Number { line: 85, index: 24, size: 3, value: 476 }
+testing part: .$... ✅
+testing Number { line: 85, index: 30, size: 3, value: 398 }
+testing part: ..... ❌
+testing part: .398. ❌
+testing part: .*... ✅
+testing Number { line: 85, index: 42, size: 3, value: 619 }
+testing part: ...-. ✅
+testing Number { line: 85, index: 55, size: 3, value: 280 }
+testing part: ..... ❌
+testing part: *280. ✅
+testing Number { line: 85, index: 60, size: 3, value: 923 }
+testing part: ..... ❌
+testing part: .923. ❌
+testing part: ..&.. ✅
+testing Number { line: 85, index: 78, size: 2, value: 31 }
+testing part: .... ❌
+testing part: *31. ✅
+testing Number { line: 85, index: 82, size: 3, value: 691 }
+testing part: &.... ✅
+testing Number { line: 85, index: 113, size: 2, value: 67 }
+testing part: .... ❌
+testing part: .67. ❌
+testing part: ..*. ✅
+testing Number { line: 85, index: 121, size: 3, value: 782 }
+testing part: ..... ❌
+testing part: .782. ❌
+testing part: ..*.. ✅
+testing Number { line: 86, index: 47, size: 3, value: 268 }
+testing part: ..*.. ✅
+testing Number { line: 86, index: 70, size: 3, value: 428 }
+testing part: ..... ❌
+testing part: .428. ❌
+testing part: ..=.. ✅
+testing Number { line: 86, index: 93, size: 3, value: 408 }
+testing part: ..*.. ✅
+testing Number { line: 86, index: 100, size: 3, value: 740 }
+testing part: ....= ✅
+testing Number { line: 86, index: 107, size: 3, value: 576 }
+testing part: .*... ✅
+testing Number { line: 87, index: 11, size: 3, value: 734 }
+testing part: ....* ✅
+testing Number { line: 87, index: 20, size: 3, value: 317 }
+testing part: %.... ✅
+testing Number { line: 87, index: 24, size: 3, value: 114 }
+testing part: ..... ❌
+testing part: .114. ❌
+testing part: .*... ✅
+testing Number { line: 87, index: 28, size: 3, value: 332 }
+testing part: ...*. ✅
+testing Number { line: 87, index: 34, size: 3, value: 795 }
+testing part: ..... ❌
+testing part: .795. ❌
+testing part: ..... ❌
+testing Number { line: 87, index: 40, size: 3, value: 743 }
+testing part: .+... ✅
+testing Number { line: 87, index: 74, size: 3, value: 908 }
+testing part: ..... ❌
+testing part: .908. ❌
+testing part: *.... ✅
+testing Number { line: 87, index: 88, size: 3, value: 381 }
+testing part: ..... ❌
+testing part: .381. ❌
+testing part: .*... ✅
+testing Number { line: 87, index: 114, size: 3, value: 914 }
+testing part: .*... ✅
+testing Number { line: 87, index: 120, size: 3, value: 420 }
+testing part: ...*. ✅
+testing Number { line: 87, index: 125, size: 3, value: 647 }
+testing part: ..... ❌
+testing part: *647. ✅
+testing Number { line: 87, index: 132, size: 3, value: 528 }
+testing part: .$... ✅
+testing Number { line: 88, index: 2, size: 3, value: 284 }
+testing part: ...-. ✅
+testing Number { line: 88, index: 6, size: 3, value: 825 }
+testing part: ../.. ✅
+testing Number { line: 88, index: 47, size: 3, value: 721 }
+testing part: ..... ❌
+testing part: .721/ ✅
+testing Number { line: 88, index: 53, size: 3, value: 929 }
+testing part: ..... ❌
+testing part: =929. ✅
+testing Number { line: 88, index: 65, size: 3, value: 324 }
+testing part: ....- ✅
+testing Number { line: 88, index: 78, size: 3, value: 167 }
+testing part: ..... ❌
+testing part: .167. ❌
+testing part: ..*.. ✅
+testing Number { line: 88, index: 82, size: 3, value: 561 }
+testing part: ..... ❌
+testing part: .561. ❌
+testing part: ...-. ✅
+testing Number { line: 88, index: 94, size: 3, value: 815 }
+testing part: ..... ❌
+testing part: .815* ✅
+testing Number { line: 88, index: 98, size: 3, value: 466 }
+testing part: ..... ❌
+testing part: *466. ✅
+testing Number { line: 89, index: 14, size: 3, value: 389 }
+testing part: ..... ❌
+testing part: .389. ❌
+testing part: *.... ✅
+testing Number { line: 89, index: 19, size: 3, value: 304 }
+testing part: ..... ❌
+testing part: .304. ❌
+testing part: .@... ✅
+testing Number { line: 89, index: 23, size: 3, value: 480 }
+testing part: ..*.. ✅
+testing Number { line: 89, index: 33, size: 3, value: 851 }
+testing part: ..... ❌
+testing part: .851. ❌
+testing part: ..*.. ✅
+testing Number { line: 89, index: 43, size: 3, value: 585 }
+testing part: ..... ❌
+testing part: .585. ❌
+testing part: ..+.. ✅
+testing Number { line: 89, index: 60, size: 3, value: 942 }
+testing part: ..... ❌
+testing part: .942% ✅
+testing Number { line: 89, index: 72, size: 3, value: 496 }
+testing part: ..*.. ✅
+testing Number { line: 89, index: 86, size: 2, value: 53 }
+testing part: ...* ✅
+testing Number { line: 89, index: 104, size: 3, value: 170 }
+testing part: ..... ❌
+testing part: .170. ❌
+testing part: ..... ❌
+testing Number { line: 89, index: 111, size: 3, value: 938 }
+testing part: ..... ❌
+testing part: .938* ✅
+testing Number { line: 89, index: 125, size: 3, value: 518 }
+testing part: ..... ❌
+testing part: .518. ❌
+testing part: ..+.. ✅
+testing Number { line: 90, index: 8, size: 3, value: 368 }
+testing part: ..... ❌
+testing part: .368. ❌
+testing part: ....+ ✅
+testing Number { line: 90, index: 39, size: 3, value: 941 }
+testing part: @.... ✅
+testing Number { line: 90, index: 68, size: 3, value: 930 }
+testing part: ...#. ✅
+testing Number { line: 90, index: 80, size: 3, value: 364 }
+testing part: *.... ✅
+testing Number { line: 90, index: 90, size: 3, value: 522 }
+testing part: ..... ❌
+testing part: .522. ❌
+testing part: ...*. ✅
+testing Number { line: 90, index: 115, size: 2, value: 59 }
+testing part: *... ✅
+testing Number { line: 90, index: 136, size: 3, value: 652 }
+testing part: ..... ❌
+testing part: .652. ❌
+testing part: .*... ✅
+testing Number { line: 91, index: 13, size: 3, value: 963 }
+testing part: .*... ✅
+testing Number { line: 91, index: 35, size: 3, value: 949 }
+testing part: *.... ✅
+testing Number { line: 91, index: 49, size: 3, value: 828 }
+testing part: ....* ✅
+testing Number { line: 91, index: 53, size: 3, value: 784 }
+testing part: *.... ✅
+testing Number { line: 91, index: 62, size: 3, value: 860 }
+testing part: ..... ❌
+testing part: .860. ❌
+testing part: ....& ✅
+testing Number { line: 91, index: 84, size: 3, value: 420 }
+testing part: ..... ❌
+testing part: .420. ❌
+testing part: ..*.. ✅
+testing Number { line: 91, index: 118, size: 3, value: 548 }
+testing part: ..... ❌
+testing part: .548. ❌
+testing part: ..... ❌
+testing Number { line: 91, index: 132, size: 3, value: 310 }
+testing part: $.... ✅
+testing Number { line: 92, index: 5, size: 3, value: 476 }
+testing part: ..... ❌
+testing part: .476. ❌
+testing part: ...*. ✅
+testing Number { line: 92, index: 43, size: 2, value: 94 }
+testing part: .... ❌
+testing part: .94. ❌
+testing part: *... ✅
+testing Number { line: 92, index: 74, size: 3, value: 589 }
+testing part: ....* ✅
+testing Number { line: 92, index: 78, size: 3, value: 833 }
+testing part: *.... ✅
+testing Number { line: 92, index: 88, size: 3, value: 426 }
+testing part: ..... ❌
+testing part: .426. ❌
+testing part: ..$.. ✅
+testing Number { line: 92, index: 92, size: 3, value: 940 }
+testing part: .*... ✅
+testing Number { line: 92, index: 106, size: 3, value: 959 }
+testing part: ..... ❌
+testing part: .959. ❌
+testing part: .$... ✅
+testing Number { line: 92, index: 110, size: 3, value: 993 }
+testing part: ..*.. ✅
+testing Number { line: 92, index: 115, size: 2, value: 88 }
+testing part: .... ❌
+testing part: &88. ✅
+testing Number { line: 92, index: 137, size: 3, value: 398 }
+testing part: *... ✅
+testing Number { line: 93, index: 24, size: 3, value: 624 }
+testing part: *.... ✅
+testing Number { line: 93, index: 31, size: 3, value: 917 }
+testing part: ..... ❌
+testing part: .917. ❌
+testing part: &.... ✅
+testing Number { line: 93, index: 37, size: 3, value: 838 }
+testing part: ...=. ✅
+testing Number { line: 93, index: 46, size: 3, value: 664 }
+testing part: .+... ✅
+testing Number { line: 93, index: 56, size: 3, value: 721 }
+testing part: ..... ❌
+testing part: .721. ❌
+testing part: ..... ❌
+testing Number { line: 93, index: 83, size: 3, value: 833 }
+testing part: ...*. ✅
+testing Number { line: 93, index: 97, size: 3, value: 672 }
+testing part: ....& ✅
+testing Number { line: 93, index: 119, size: 2, value: 19 }
+testing part: .... ❌
+testing part: .19. ❌
+testing part: ...= ✅
+testing Number { line: 94, index: 4, size: 3, value: 350 }
+testing part: ....* ✅
+testing Number { line: 94, index: 50, size: 3, value: 333 }
+testing part: ..... ❌
+testing part: .333. ❌
+testing part: ../.. ✅
+testing Number { line: 94, index: 70, size: 3, value: 707 }
+testing part: ..... ❌
+testing part: .707. ❌
+testing part: ..#.. ✅
+testing Number { line: 94, index: 109, size: 3, value: 240 }
+testing part: ..... ❌
+testing part: .240. ❌
+testing part: ..... ❌
+testing Number { line: 94, index: 114, size: 3, value: 336 }
+testing part: ..... ❌
+testing part: .336. ❌
+testing part: ....* ✅
+testing Number { line: 94, index: 125, size: 3, value: 746 }
+testing part: ..... ❌
+testing part: .746. ❌
+testing part: ....* ✅
+testing Number { line: 94, index: 129, size: 3, value: 263 }
+testing part: ..... ❌
+testing part: .263. ❌
+testing part: *.... ✅
+testing Number { line: 94, index: 135, size: 3, value: 463 }
+testing part: ..... ❌
+testing part: $463. ✅
+testing Number { line: 95, index: 35, size: 3, value: 220 }
+testing part: .=... ✅
+testing Number { line: 95, index: 43, size: 3, value: 663 }
+testing part: ..... ❌
+testing part: .663. ❌
+testing part: ....* ✅
+testing Number { line: 95, index: 66, size: 3, value: 849 }
+testing part: ..... ❌
+testing part: *849. ✅
+testing Number { line: 95, index: 74, size: 3, value: 631 }
+testing part: ..... ❌
+testing part: .631. ❌
+testing part: ....* ✅
+testing Number { line: 95, index: 82, size: 3, value: 712 }
+testing part: ..... ❌
+testing part: .712. ❌
+testing part: *.... ✅
+testing Number { line: 95, index: 97, size: 3, value: 308 }
+testing part: ..... ❌
+testing part: .308. ❌
+testing part: ....* ✅
+testing Number { line: 95, index: 101, size: 3, value: 580 }
+testing part: ..... ❌
+testing part: .580. ❌
+testing part: *.... ✅
+testing Number { line: 96, index: 1, size: 2, value: 78 }
+testing part: .... ❌
+testing part: .78@ ✅
+testing Number { line: 96, index: 23, size: 3, value: 422 }
+testing part: ...-. ✅
+testing Number { line: 96, index: 30, size: 3, value: 444 }
+testing part: ..... ❌
+testing part: .444. ❌
+testing part: ..&.. ✅
+testing Number { line: 96, index: 62, size: 3, value: 281 }
+testing part: ....* ✅
+testing Number { line: 96, index: 86, size: 3, value: 447 }
+testing part: ....= ✅
+testing Number { line: 96, index: 91, size: 2, value: 37 }
+testing part: .../ ✅
+testing Number { line: 96, index: 117, size: 3, value: 814 }
+testing part: .*... ✅
+testing Number { line: 97, index: 13, size: 3, value: 788 }
+testing part: /.... ✅
+testing Number { line: 97, index: 19, size: 3, value: 810 }
+testing part: ..... ❌
+testing part: .810. ❌
+testing part: *.... ✅
+testing Number { line: 97, index: 46, size: 3, value: 369 }
+testing part: .*... ✅
+testing Number { line: 97, index: 51, size: 3, value: 985 }
+testing part: ..... ❌
+testing part: .985. ❌
+testing part: /.... ✅
+testing Number { line: 97, index: 75, size: 2, value: 92 }
+testing part: ...* ✅
+testing Number { line: 97, index: 109, size: 3, value: 684 }
+testing part: ..... ❌
+testing part: .684. ❌
+testing part: ..+.. ✅
+testing Number { line: 97, index: 127, size: 2, value: 74 }
+testing part: .... ❌
+testing part: .74. ❌
+testing part: .*.. ✅
+testing Number { line: 98, index: 6, size: 3, value: 279 }
+testing part: ..../ ✅
+testing Number { line: 98, index: 25, size: 3, value: 128 }
+testing part: ..... ❌
+testing part: .128/ ✅
+testing Number { line: 98, index: 33, size: 3, value: 464 }
+testing part: ..... ❌
+testing part: .464. ❌
+testing part: ..*.. ✅
+testing Number { line: 98, index: 57, size: 3, value: 944 }
+testing part: ..-.. ✅
+testing Number { line: 98, index: 68, size: 3, value: 978 }
+testing part: ..... ❌
+testing part: .978. ❌
+testing part: ..%.. ✅
+testing Number { line: 98, index: 86, size: 3, value: 163 }
+testing part: ..... ❌
+testing part: .163. ❌
+testing part: ....$ ✅
+testing Number { line: 98, index: 91, size: 3, value: 984 }
+testing part: ..... ❌
+testing part: .984* ✅
+testing Number { line: 98, index: 95, size: 1, value: 5 }
+testing part: ... ❌
+testing part: *5. ✅
+testing Number { line: 98, index: 118, size: 3, value: 165 }
+testing part: ..... ❌
+testing part: .165. ❌
+testing part: ....* ✅
+testing Number { line: 98, index: 132, size: 3, value: 285 }
+testing part: ..... ❌
+testing part: .285. ❌
+testing part: ..... ❌
+testing Number { line: 99, index: 18, size: 3, value: 889 }
+testing part: .*... ✅
+testing Number { line: 99, index: 42, size: 3, value: 969 }
+testing part: ...#. ✅
+testing Number { line: 99, index: 77, size: 1, value: 5 }
+testing part: ... ❌
+testing part: .5. ❌
+testing part: ..* ✅
+testing Number { line: 99, index: 98, size: 3, value: 272 }
+testing part: @.... ✅
+testing Number { line: 99, index: 128, size: 3, value: 374 }
+testing part: *.... ✅
+testing Number { line: 100, index: 25, size: 3, value: 948 }
+testing part: ..... ❌
+testing part: @948. ✅
+testing Number { line: 100, index: 33, size: 2, value: 13 }
+testing part: ..*. ✅
+testing Number { line: 100, index: 36, size: 3, value: 358 }
+testing part: ..... ❌
+testing part: .358. ❌
+testing part: ..... ❌
+testing Number { line: 100, index: 47, size: 3, value: 796 }
+testing part: ..... ❌
+testing part: .796. ❌
+testing part: ...$. ✅
+testing Number { line: 100, index: 63, size: 3, value: 632 }
+testing part: ..... ❌
+testing part: .632. ❌
+testing part: ....* ✅
+testing Number { line: 100, index: 83, size: 3, value: 789 }
+testing part: ..&.. ✅
+testing Number { line: 100, index: 94, size: 2, value: 91 }
+testing part: .... ❌
+testing part: .91* ✅
+testing Number { line: 100, index: 112, size: 2, value: 66 }
+testing part: .... ❌
+testing part: *66. ✅
+testing Number { line: 100, index: 122, size: 3, value: 152 }
+testing part: *.... ✅
+testing Number { line: 101, index: 8, size: 3, value: 508 }
+testing part: ..&.. ✅
+testing Number { line: 101, index: 29, size: 1, value: 3 }
+testing part: ..* ✅
+testing Number { line: 101, index: 41, size: 3, value: 544 }
+testing part: ..... ❌
+testing part: .544. ❌
+testing part: .*... ✅
+testing Number { line: 101, index: 51, size: 3, value: 517 }
+testing part: ..... ❌
+testing part: .517. ❌
+testing part: ..... ❌
+testing Number { line: 101, index: 59, size: 3, value: 703 }
+testing part: ..... ❌
+testing part: .703. ❌
+testing part: ..*.. ✅
+testing Number { line: 101, index: 67, size: 3, value: 774 }
+testing part: ..... ❌
+testing part: *774. ✅
+testing Number { line: 101, index: 77, size: 3, value: 434 }
+testing part: ..*.. ✅
+testing Number { line: 101, index: 97, size: 3, value: 794 }
+testing part: *.... ✅
+testing Number { line: 101, index: 108, size: 3, value: 932 }
+testing part: ....* ✅
+testing Number { line: 102, index: 15, size: 3, value: 241 }
+testing part: +.... ✅
+testing Number { line: 102, index: 23, size: 2, value: 74 }
+testing part: .... ❌
+testing part: .74. ❌
+testing part: ..*. ✅
+testing Number { line: 102, index: 36, size: 3, value: 974 }
+testing part: ..... ❌
+testing part: .974. ❌
+testing part: *.... ✅
+testing Number { line: 102, index: 45, size: 3, value: 954 }
+testing part: ..... ❌
+testing part: .954. ❌
+testing part: ....# ✅
+testing Number { line: 102, index: 84, size: 3, value: 375 }
+testing part: ..... ❌
+testing part: .375. ❌
+testing part: ....* ✅
+testing Number { line: 102, index: 89, size: 3, value: 772 }
+testing part: ..../ ✅
+testing Number { line: 102, index: 103, size: 3, value: 218 }
+testing part: ..... ❌
+testing part: .218. ❌
+testing part: ..*.. ✅
+testing Number { line: 102, index: 115, size: 3, value: 414 }
+testing part: ..... ❌
+testing part: .414. ❌
+testing part: ....* ✅
+testing Number { line: 102, index: 130, size: 3, value: 366 }
+testing part: ..... ❌
+testing part: *366. ✅
+testing Number { line: 102, index: 137, size: 3, value: 252 }
+testing part: .... ❌
+testing part: .252 ❌
+testing part: .... ❌
+testing Number { line: 103, index: 1, size: 3, value: 501 }
+testing part: ...$. ✅
+testing Number { line: 103, index: 6, size: 3, value: 566 }
+testing part: ..... ❌
+testing part: .566. ❌
+testing part: /.... ✅
+testing Number { line: 103, index: 40, size: 3, value: 599 }
+testing part: ..*.. ✅
+testing Number { line: 103, index: 57, size: 3, value: 256 }
+testing part: ....* ✅
+testing Number { line: 103, index: 65, size: 3, value: 468 }
+testing part: ..... ❌
+testing part: .468@ ✅
+testing Number { line: 103, index: 71, size: 3, value: 942 }
+testing part: ..... ❌
+testing part: .942. ❌
+testing part: ..... ❌
+testing Number { line: 103, index: 75, size: 3, value: 101 }
+testing part: ..... ❌
+testing part: .101. ❌
+testing part: ..*.. ✅
+testing Number { line: 103, index: 98, size: 3, value: 156 }
+testing part: ..... ❌
+testing part: .156. ❌
+testing part: .+... ✅
+testing Number { line: 103, index: 126, size: 3, value: 998 }
+testing part: ....* ✅
+testing Number { line: 104, index: 19, size: 3, value: 263 }
+testing part: ..... ❌
+testing part: .263. ❌
+testing part: ..... ❌
+testing Number { line: 104, index: 23, size: 3, value: 312 }
+testing part: ..*.. ✅
+testing Number { line: 104, index: 33, size: 3, value: 767 }
+testing part: ...*. ✅
+testing Number { line: 104, index: 81, size: 2, value: 95 }
+testing part: .... ❌
+testing part: &95. ✅
+testing Number { line: 104, index: 85, size: 3, value: 838 }
+testing part: ...*. ✅
+testing Number { line: 104, index: 89, size: 3, value: 162 }
+testing part: ..... ❌
+testing part: .162= ✅
+testing Number { line: 104, index: 103, size: 3, value: 130 }
+testing part: ..*.. ✅
+testing Number { line: 104, index: 115, size: 3, value: 583 }
+testing part: ....* ✅
+testing Number { line: 104, index: 120, size: 3, value: 544 }
+testing part: ..... ❌
+testing part: .544. ❌
+testing part: *.... ✅
+testing Number { line: 104, index: 130, size: 3, value: 176 }
+testing part: ..... ❌
+testing part: .176. ❌
+testing part: /.... ✅
+testing Number { line: 105, index: 28, size: 3, value: 936 }
+testing part: ...+. ✅
+testing Number { line: 105, index: 37, size: 3, value: 826 }
+testing part: ..... ❌
+testing part: .826. ❌
+testing part: $.... ✅
+testing Number { line: 105, index: 47, size: 3, value: 421 }
+testing part: ....# ✅
+testing Number { line: 105, index: 58, size: 3, value: 139 }
+testing part: ..... ❌
+testing part: -139. ✅
+testing Number { line: 105, index: 68, size: 3, value: 982 }
+testing part: ..... ❌
+testing part: .982. ❌
+testing part: ..... ❌
+testing Number { line: 105, index: 74, size: 3, value: 893 }
+testing part: ...*. ✅
+testing Number { line: 106, index: 1, size: 3, value: 284 }
+testing part: ..... ❌
+testing part: .284. ❌
+testing part: ....@ ✅
+testing Number { line: 106, index: 10, size: 3, value: 724 }
+testing part: ..... ❌
+testing part: =724. ✅
+testing Number { line: 106, index: 32, size: 3, value: 661 }
+testing part: ..... ❌
+testing part: .661. ❌
+testing part: ..... ❌
+testing Number { line: 106, index: 41, size: 3, value: 694 }
+testing part: ..... ❌
+testing part: .694. ❌
+testing part: ..... ❌
+testing Number { line: 106, index: 52, size: 2, value: 85 }
+testing part: .... ❌
+testing part: .85. ❌
+testing part: @... ✅
+testing Number { line: 106, index: 64, size: 3, value: 438 }
+testing part: ..... ❌
+testing part: .438. ❌
+testing part: ....* ✅
+testing Number { line: 106, index: 80, size: 2, value: 51 }
+testing part: .... ❌
+testing part: .51. ❌
+testing part: ...% ✅
+testing Number { line: 106, index: 97, size: 3, value: 616 }
+testing part: ....* ✅
+testing Number { line: 106, index: 101, size: 3, value: 698 }
+testing part: *.... ✅
+testing Number { line: 106, index: 106, size: 2, value: 36 }
+testing part: .... ❌
+testing part: *36. ✅
+testing Number { line: 106, index: 113, size: 3, value: 262 }
+testing part: ..... ❌
+testing part: .262. ❌
+testing part: $.... ✅
+testing Number { line: 106, index: 122, size: 3, value: 357 }
+testing part: ..... ❌
+testing part: .357+ ✅
+testing Number { line: 106, index: 134, size: 3, value: 224 }
+testing part: ..... ❌
+testing part: .224. ❌
+testing part: ..... ❌
+testing Number { line: 107, index: 15, size: 3, value: 491 }
+testing part: ..... ❌
+testing part: .491. ❌
+testing part: ..... ❌
+testing Number { line: 107, index: 58, size: 3, value: 193 }
+testing part: ..... ❌
+testing part: .193. ❌
+testing part: ..*.. ✅
+testing Number { line: 107, index: 68, size: 3, value: 596 }
+testing part: ..... ❌
+testing part: *596. ✅
+testing Number { line: 107, index: 86, size: 3, value: 844 }
+testing part: ..... ❌
+testing part: /844. ✅
+testing Number { line: 107, index: 92, size: 3, value: 387 }
+testing part: ..... ❌
+testing part: .387. ❌
+testing part: *.... ✅
+testing Number { line: 107, index: 118, size: 3, value: 132 }
+testing part: ..... ❌
+testing part: .132. ❌
+testing part: ..... ❌
+testing Number { line: 108, index: 7, size: 2, value: 84 }
+testing part: .... ❌
+testing part: .84. ❌
+testing part: ...* ✅
+testing Number { line: 108, index: 23, size: 3, value: 362 }
+testing part: ....+ ✅
+testing Number { line: 108, index: 62, size: 2, value: 98 }
+testing part: .... ❌
+testing part: .98. ❌
+testing part: .*.. ✅
+testing Number { line: 108, index: 96, size: 2, value: 14 }
+testing part: .... ❌
+testing part: .14. ❌
+testing part: ..*. ✅
+testing Number { line: 108, index: 102, size: 3, value: 394 }
+testing part: ..... ❌
+testing part: .394. ❌
+testing part: ..*.. ✅
+testing Number { line: 108, index: 130, size: 2, value: 56 }
+testing part: .%.. ✅
+testing Number { line: 109, index: 10, size: 3, value: 432 }
+testing part: ..... ❌
+testing part: *432. ✅
+testing Number { line: 109, index: 18, size: 3, value: 512 }
+testing part: ..... ❌
+testing part: .512. ❌
+testing part: *.... ✅
+testing Number { line: 109, index: 37, size: 3, value: 704 }
+testing part: ..... ❌
+testing part: .704. ❌
+testing part: ..*.. ✅
+testing Number { line: 109, index: 46, size: 3, value: 424 }
+testing part: ..... ❌
+testing part: .424. ❌
+testing part: ..... ❌
+testing Number { line: 109, index: 75, size: 2, value: 74 }
+testing part: &... ✅
+testing Number { line: 109, index: 85, size: 3, value: 196 }
+testing part: ..... ❌
+testing part: .196% ✅
+testing Number { line: 109, index: 91, size: 3, value: 875 }
+testing part: .*... ✅
+testing Number { line: 109, index: 116, size: 3, value: 132 }
+testing part: $.... ✅
+testing Number { line: 109, index: 126, size: 3, value: 229 }
+testing part: ..... ❌
+testing part: .229. ❌
+testing part: ....* ✅
+testing Number { line: 110, index: 14, size: 3, value: 723 }
+testing part: ..... ❌
+testing part: .723* ✅
+testing Number { line: 110, index: 27, size: 3, value: 568 }
+testing part: ..... ❌
+testing part: .568. ❌
+testing part: ...*. ✅
+testing Number { line: 110, index: 41, size: 3, value: 108 }
+testing part: ..... ❌
+testing part: .108. ❌
+testing part: ...*. ✅
+testing Number { line: 110, index: 52, size: 3, value: 672 }
+testing part: ..... ❌
+testing part: .672. ❌
+testing part: ..... ❌
+testing Number { line: 110, index: 61, size: 2, value: 55 }
+testing part: ..*. ✅
+testing Number { line: 110, index: 64, size: 3, value: 172 }
+testing part: ..... ❌
+testing part: .172. ❌
+testing part: ....% ✅
+testing Number { line: 110, index: 70, size: 3, value: 217 }
+testing part: ..... ❌
+testing part: .217. ❌
+testing part: .&... ✅
+testing Number { line: 110, index: 98, size: 3, value: 289 }
+testing part: *.... ✅
+testing Number { line: 110, index: 102, size: 3, value: 427 }
+testing part: ..*.. ✅
+testing Number { line: 111, index: 10, size: 3, value: 795 }
+testing part: ..... ❌
+testing part: #795. ✅
+testing Number { line: 111, index: 22, size: 3, value: 214 }
+testing part: ..... ❌
+testing part: .214. ❌
+testing part: ..... ❌
+testing Number { line: 111, index: 31, size: 3, value: 336 }
+testing part: ..... ❌
+testing part: .336. ❌
+testing part: ....* ✅
+testing Number { line: 111, index: 37, size: 2, value: 94 }
+testing part: ..*. ✅
+testing Number { line: 111, index: 48, size: 3, value: 988 }
+testing part: ..... ❌
+testing part: .988. ❌
+testing part: ..&.. ✅
+testing Number { line: 111, index: 85, size: 2, value: 86 }
+testing part: .... ❌
+testing part: *86. ✅
+testing Number { line: 111, index: 109, size: 3, value: 838 }
+testing part: ..... ❌
+testing part: .838& ✅
+testing Number { line: 111, index: 120, size: 3, value: 540 }
+testing part: ..... ❌
+testing part: .540. ❌
+testing part: ..... ❌
+testing Number { line: 111, index: 130, size: 3, value: 902 }
+testing part: *.... ✅
+testing Number { line: 112, index: 1, size: 3, value: 922 }
+testing part: ..... ❌
+testing part: .922. ❌
+testing part: ...*. ✅
+testing Number { line: 112, index: 15, size: 3, value: 288 }
+testing part: ..... ❌
+testing part: .288. ❌
+testing part: .../. ✅
+testing Number { line: 112, index: 26, size: 3, value: 719 }
+testing part: ....* ✅
+testing Number { line: 112, index: 43, size: 3, value: 845 }
+testing part: .*... ✅
+testing Number { line: 112, index: 52, size: 3, value: 558 }
+testing part: ..... ❌
+testing part: .558. ❌
+testing part: ....* ✅
+testing Number { line: 112, index: 81, size: 3, value: 524 }
+testing part: ....* ✅
+testing Number { line: 112, index: 90, size: 3, value: 195 }
+testing part: ....* ✅
+testing Number { line: 112, index: 94, size: 3, value: 704 }
+testing part: *.... ✅
+testing Number { line: 112, index: 134, size: 2, value: 77 }
+testing part: .... ❌
+testing part: .77. ❌
+testing part: .... ❌
+testing Number { line: 113, index: 8, size: 3, value: 842 }
+testing part: ..... ❌
+testing part: .842. ❌
+testing part: *.... ✅
+testing Number { line: 113, index: 21, size: 3, value: 166 }
+testing part: ..... ❌
+testing part: .166. ❌
+testing part: .*... ✅
+testing Number { line: 113, index: 32, size: 3, value: 883 }
+testing part: ...*. ✅
+testing Number { line: 113, index: 56, size: 3, value: 503 }
+testing part: ..... ❌
+testing part: *503. ✅
+testing Number { line: 113, index: 61, size: 3, value: 451 }
+testing part: .#... ✅
+testing Number { line: 113, index: 66, size: 3, value: 305 }
+testing part: ..... ❌
+testing part: .305. ❌
+testing part: ..... ❌
+testing Number { line: 113, index: 76, size: 3, value: 600 }
+testing part: ..... ❌
+testing part: .600. ❌
+testing part: ....* ✅
+testing Number { line: 113, index: 107, size: 3, value: 900 }
+testing part: ..... ❌
+testing part: .900. ❌
+testing part: *.... ✅
+testing Number { line: 113, index: 112, size: 3, value: 280 }
+testing part: ..... ❌
+testing part: .280. ❌
+testing part: =.... ✅
+testing Number { line: 113, index: 121, size: 3, value: 169 }
+testing part: ..... ❌
+testing part: *169. ✅
+testing Number { line: 113, index: 127, size: 3, value: 586 }
+testing part: ..... ❌
+testing part: .586. ❌
+testing part: ....# ✅
+testing Number { line: 114, index: 0, size: 3, value: 751 }
+testing part: ...* ✅
+testing Number { line: 114, index: 28, size: 3, value: 944 }
+testing part: ..... ❌
+testing part: .944. ❌
+testing part: ..... ❌
+testing Number { line: 114, index: 37, size: 3, value: 116 }
+testing part: ..-.. ✅
+testing Number { line: 114, index: 44, size: 3, value: 416 }
+testing part: ..... ❌
+testing part: .416. ❌
+testing part: ..... ❌
+testing Number { line: 114, index: 72, size: 3, value: 877 }
+testing part: /.... ✅
+testing Number { line: 114, index: 84, size: 3, value: 418 }
+testing part: ..... ❌
+testing part: .418. ❌
+testing part: ....$ ✅
+testing Number { line: 114, index: 90, size: 3, value: 194 }
+testing part: ..... ❌
+testing part: .194. ❌
+testing part: ...$. ✅
+testing Number { line: 114, index: 101, size: 3, value: 644 }
+testing part: ..... ❌
+testing part: .644. ❌
+testing part: ....@ ✅
+testing Number { line: 114, index: 117, size: 3, value: 244 }
+testing part: ....* ✅
+testing Number { line: 114, index: 136, size: 3, value: 354 }
+testing part: ..... ❌
+testing part: .354. ❌
+testing part: &.... ✅
+testing Number { line: 115, index: 7, size: 3, value: 118 }
+testing part: .*... ✅
+testing Number { line: 115, index: 16, size: 3, value: 208 }
+testing part: ..../ ✅
+testing Number { line: 115, index: 54, size: 3, value: 788 }
+testing part: ..... ❌
+testing part: .788. ❌
+testing part: .*... ✅
+testing Number { line: 115, index: 76, size: 3, value: 826 }
+testing part: ....* ✅
+testing Number { line: 115, index: 96, size: 3, value: 207 }
+testing part: ..... ❌
+testing part: .207. ❌
+testing part: ....- ✅
+testing Number { line: 115, index: 107, size: 3, value: 152 }
+testing part: *.... ✅
+testing Number { line: 115, index: 121, size: 3, value: 893 }
+testing part: ..... ❌
+testing part: .893* ✅
+testing Number { line: 115, index: 125, size: 3, value: 608 }
+testing part: ..... ❌
+testing part: *608. ✅
+testing Number { line: 116, index: 2, size: 3, value: 948 }
+testing part: ..... ❌
+testing part: .948. ❌
+testing part: ..*.. ✅
+testing Number { line: 116, index: 28, size: 3, value: 203 }
+testing part: ..... ❌
+testing part: .203. ❌
+testing part: ...*. ✅
+testing Number { line: 116, index: 38, size: 3, value: 206 }
+testing part: ..... ❌
+testing part: .206. ❌
+testing part: ...@. ✅
+testing Number { line: 116, index: 59, size: 3, value: 341 }
+testing part: ..... ❌
+testing part: .341. ❌
+testing part: ..... ❌
+testing Number { line: 116, index: 64, size: 3, value: 977 }
+testing part: ..... ❌
+testing part: /977. ✅
+testing Number { line: 116, index: 68, size: 3, value: 916 }
+testing part: ..... ❌
+testing part: .916. ❌
+testing part: .-... ✅
+testing Number { line: 116, index: 80, size: 2, value: 49 }
+testing part: .... ❌
+testing part: .49. ❌
+testing part: *... ✅
+testing Number { line: 116, index: 113, size: 3, value: 385 }
+testing part: ..... ❌
+testing part: +385. ✅
+testing Number { line: 117, index: 10, size: 3, value: 266 }
+testing part: ..... ❌
+testing part: .266. ❌
+testing part: .*... ✅
+testing Number { line: 117, index: 34, size: 3, value: 607 }
+testing part: /.... ✅
+testing Number { line: 117, index: 42, size: 3, value: 990 }
+testing part: ..... ❌
+testing part: .990. ❌
+testing part: ...*. ✅
+testing Number { line: 117, index: 51, size: 3, value: 964 }
+testing part: ....* ✅
+testing Number { line: 117, index: 85, size: 3, value: 340 }
+testing part: .#... ✅
+testing Number { line: 117, index: 91, size: 3, value: 697 }
+testing part: ....@ ✅
+testing Number { line: 117, index: 102, size: 2, value: 62 }
+testing part: .... ❌
+testing part: .62. ❌
+testing part: ..*. ✅
+testing Number { line: 117, index: 118, size: 3, value: 526 }
+testing part: ..... ❌
+testing part: .526. ❌
+testing part: ..*.. ✅
+testing Number { line: 118, index: 2, size: 3, value: 675 }
+testing part: ..*.. ✅
+testing Number { line: 118, index: 21, size: 3, value: 612 }
+testing part: ..... ❌
+testing part: .612. ❌
+testing part: .*... ✅
+testing Number { line: 118, index: 28, size: 3, value: 604 }
+testing part: ...*. ✅
+testing Number { line: 118, index: 59, size: 3, value: 492 }
+testing part: ..... ❌
+testing part: .492. ❌
+testing part: $.... ✅
+testing Number { line: 118, index: 63, size: 3, value: 884 }
+testing part: ..... ❌
+testing part: .884. ❌
+testing part: ...=. ✅
+testing Number { line: 118, index: 77, size: 3, value: 212 }
+testing part: ...*. ✅
+testing Number { line: 118, index: 96, size: 3, value: 157 }
+testing part: ..... ❌
+testing part: *157. ✅
+testing Number { line: 118, index: 107, size: 3, value: 679 }
+testing part: ..... ❌
+testing part: .679. ❌
+testing part: ...*. ✅
+testing Number { line: 118, index: 124, size: 3, value: 706 }
+testing part: ...-. ✅
+testing Number { line: 118, index: 130, size: 3, value: 716 }
+testing part: ..... ❌
+testing part: .716% ✅
+testing Number { line: 118, index: 135, size: 3, value: 518 }
+testing part: ..... ❌
+testing part: .518. ❌
+testing part: ..+.. ✅
+testing Number { line: 119, index: 6, size: 3, value: 103 }
+testing part: ..... ❌
+testing part: .103. ❌
+testing part: *.... ✅
+testing Number { line: 119, index: 10, size: 3, value: 749 }
+testing part: .*... ✅
+testing Number { line: 119, index: 15, size: 3, value: 989 }
+testing part: ..... ❌
+testing part: .989. ❌
+testing part: /.... ✅
+testing Number { line: 119, index: 41, size: 3, value: 739 }
+testing part: ....* ✅
+testing Number { line: 119, index: 87, size: 3, value: 212 }
+testing part: ..... ❌
+testing part: .212. ❌
+testing part: ..... ❌
+testing Number { line: 119, index: 92, size: 3, value: 684 }
+testing part: ....* ✅
+testing Number { line: 119, index: 100, size: 2, value: 35 }
+testing part: .... ❌
+testing part: .35. ❌
+testing part: ..*. ✅
+testing Number { line: 119, index: 119, size: 3, value: 785 }
+testing part: .*... ✅
+testing Number { line: 120, index: 2, size: 3, value: 343 }
+testing part: ..... ❌
+testing part: .343* ✅
+testing Number { line: 120, index: 22, size: 3, value: 680 }
+testing part: *.... ✅
+testing Number { line: 120, index: 47, size: 3, value: 423 }
+testing part: ..... ❌
+testing part: *423. ✅
+testing Number { line: 120, index: 67, size: 3, value: 476 }
+testing part: ..=.. ✅
+testing Number { line: 120, index: 79, size: 3, value: 420 }
+testing part: ..... ❌
+testing part: .420. ❌
+testing part: ../.. ✅
+testing Number { line: 120, index: 96, size: 3, value: 241 }
+testing part: ..... ❌
+testing part: .241. ❌
+testing part: ...*. ✅
+testing Number { line: 120, index: 108, size: 3, value: 532 }
+testing part: ..*.. ✅
+testing Number { line: 120, index: 124, size: 3, value: 864 }
+testing part: ..... ❌
+testing part: .864$ ✅
+testing Number { line: 121, index: 18, size: 3, value: 826 }
+testing part: ..... ❌
+testing part: .826. ❌
+testing part: ...*. ✅
+testing Number { line: 121, index: 29, size: 3, value: 403 }
+testing part: ..... ❌
+testing part: .403. ❌
+testing part: ....+ ✅
+testing Number { line: 121, index: 34, size: 3, value: 311 }
+testing part: ..... ❌
+testing part: .311. ❌
+testing part: ..=.. ✅
+testing Number { line: 121, index: 40, size: 2, value: 60 }
+testing part: .... ❌
+testing part: .60. ❌
+testing part: .@.. ✅
+testing Number { line: 121, index: 43, size: 3, value: 451 }
+testing part: ....* ✅
+testing Number { line: 121, index: 71, size: 3, value: 562 }
+testing part: ....& ✅
+testing Number { line: 121, index: 88, size: 3, value: 306 }
+testing part: ..... ❌
+testing part: .306. ❌
+testing part: ..... ❌
+testing Number { line: 121, index: 113, size: 3, value: 420 }
+testing part: ....+ ✅
+testing Number { line: 121, index: 134, size: 3, value: 321 }
+testing part: &.... ✅
+testing Number { line: 122, index: 3, size: 3, value: 241 }
+testing part: ..... ❌
+testing part: .241. ❌
+testing part: ....* ✅
+testing Number { line: 122, index: 48, size: 3, value: 240 }
+testing part: ..... ❌
+testing part: *240. ✅
+testing Number { line: 122, index: 58, size: 3, value: 845 }
+testing part: ..+.. ✅
+testing Number { line: 122, index: 75, size: 3, value: 740 }
+testing part: ..... ❌
+testing part: .740. ❌
+testing part: ..... ❌
+testing Number { line: 122, index: 95, size: 3, value: 968 }
+testing part: ....* ✅
+testing Number { line: 122, index: 100, size: 3, value: 389 }
+testing part: ..... ❌
+testing part: .389. ❌
+testing part: ...-. ✅
+testing Number { line: 122, index: 104, size: 3, value: 177 }
+testing part: ..... ❌
+testing part: .177* ✅
+testing Number { line: 122, index: 127, size: 3, value: 640 }
+testing part: ..... ❌
+testing part: .640. ❌
+testing part: ...*. ✅
+testing Number { line: 123, index: 7, size: 2, value: 82 }
+testing part: .... ❌
+testing part: *82. ✅
+testing Number { line: 123, index: 20, size: 3, value: 963 }
+testing part: .*... ✅
+testing Number { line: 123, index: 26, size: 3, value: 211 }
+testing part: ..... ❌
+testing part: .211% ✅
+testing Number { line: 123, index: 45, size: 2, value: 38 }
+testing part: ...* ✅
+testing Number { line: 123, index: 62, size: 3, value: 901 }
+testing part: ....@ ✅
+testing Number { line: 123, index: 70, size: 3, value: 404 }
+testing part: ..... ❌
+testing part: .404. ❌
+testing part: ..... ❌
+testing Number { line: 123, index: 85, size: 3, value: 253 }
+testing part: ..... ❌
+testing part: .253. ❌
+testing part: ....* ✅
+testing Number { line: 123, index: 108, size: 2, value: 37 }
+testing part: *... ✅
+testing Number { line: 123, index: 119, size: 3, value: 218 }
+testing part: ..... ❌
+testing part: .218. ❌
+testing part: .*... ✅
+testing Number { line: 123, index: 123, size: 3, value: 501 }
+testing part: ..... ❌
+testing part: .501. ❌
+testing part: ....% ✅
+testing Number { line: 123, index: 134, size: 3, value: 320 }
+testing part: ..... ❌
+testing part: .320. ❌
+testing part: *.... ✅
+testing Number { line: 124, index: 33, size: 3, value: 215 }
+testing part: ..... ❌
+testing part: #215. ✅
+testing Number { line: 124, index: 39, size: 3, value: 264 }
+testing part: ..... ❌
+testing part: .264. ❌
+testing part: *.... ✅
+testing Number { line: 124, index: 48, size: 3, value: 298 }
+testing part: ..... ❌
+testing part: .298. ❌
+testing part: .-... ✅
+testing Number { line: 124, index: 76, size: 3, value: 970 }
+testing part: ..... ❌
+testing part: *970. ✅
+testing Number { line: 124, index: 81, size: 3, value: 801 }
+testing part: ..&.. ✅
+testing Number { line: 124, index: 93, size: 3, value: 569 }
+testing part: ..... ❌
+testing part: .569. ❌
+testing part: .&... ✅
+testing Number { line: 124, index: 111, size: 1, value: 3 }
+testing part: ... ❌
+testing part: .3. ❌
+testing part: *.. ✅
+testing Number { line: 124, index: 129, size: 3, value: 859 }
+testing part: .*... ✅
+testing Number { line: 125, index: 1, size: 3, value: 136 }
+testing part: ....* ✅
+testing Number { line: 125, index: 5, size: 3, value: 818 }
+testing part: *.... ✅
+testing Number { line: 125, index: 11, size: 3, value: 212 }
+testing part: ..... ❌
+testing part: .212. ❌
+testing part: .*... ✅
+testing Number { line: 125, index: 25, size: 2, value: 91 }
+testing part: .... ❌
+testing part: .91* ✅
+testing Number { line: 125, index: 28, size: 2, value: 72 }
+testing part: .... ❌
+testing part: *72. ✅
+testing Number { line: 125, index: 52, size: 3, value: 750 }
+testing part: ..... ❌
+testing part: .750. ❌
+testing part: .*... ✅
+testing Number { line: 125, index: 60, size: 3, value: 775 }
+testing part: ..... ❌
+testing part: .775* ✅
+testing Number { line: 125, index: 64, size: 3, value: 728 }
+testing part: ..... ❌
+testing part: *728. ✅
+testing Number { line: 125, index: 68, size: 2, value: 29 }
+testing part: .... ❌
+testing part: .29. ❌
+testing part: .*.. ✅
+testing Number { line: 125, index: 71, size: 3, value: 270 }
+testing part: ..... ❌
+testing part: .270. ❌
+testing part: ..... ❌
+testing Number { line: 125, index: 89, size: 3, value: 984 }
+testing part: *.... ✅
+testing Number { line: 125, index: 97, size: 3, value: 371 }
+testing part: ..... ❌
+testing part: .371. ❌
+testing part: ..... ❌
+testing Number { line: 125, index: 120, size: 3, value: 639 }
+testing part: *.... ✅
+testing Number { line: 125, index: 133, size: 3, value: 670 }
+testing part: .*... ✅
+testing Number { line: 126, index: 16, size: 3, value: 959 }
+testing part: ..... ❌
+testing part: /959. ✅
+testing Number { line: 126, index: 35, size: 3, value: 438 }
+testing part: ....* ✅
+testing Number { line: 126, index: 43, size: 3, value: 524 }
+testing part: ..... ❌
+testing part: .524. ❌
+testing part: ...*. ✅
+testing Number { line: 126, index: 56, size: 3, value: 943 }
+testing part: ..... ❌
+testing part: .943. ❌
+testing part: .*... ✅
+testing Number { line: 126, index: 85, size: 3, value: 755 }
+testing part: ..... ❌
+testing part: .755. ❌
+testing part: ....* ✅
+testing Number { line: 126, index: 107, size: 3, value: 162 }
+testing part: ....* ✅
+testing Number { line: 126, index: 127, size: 3, value: 446 }
+testing part: ..... ❌
+testing part: .446# ✅
+testing Number { line: 127, index: 10, size: 3, value: 290 }
+testing part: ..*.. ✅
+testing Number { line: 127, index: 26, size: 3, value: 751 }
+testing part: ..... ❌
+testing part: .751. ❌
+testing part: ..-.. ✅
+testing Number { line: 127, index: 51, size: 3, value: 557 }
+testing part: ..*.. ✅
+testing Number { line: 127, index: 60, size: 3, value: 483 }
+testing part: ..... ❌
+testing part: .483. ❌
+testing part: %.... ✅
+testing Number { line: 127, index: 76, size: 3, value: 421 }
+testing part: ..... ❌
+testing part: .421. ❌
+testing part: ..... ❌
+testing Number { line: 127, index: 101, size: 3, value: 189 }
+testing part: ..... ❌
+testing part: .189. ❌
+testing part: *.... ✅
+testing Number { line: 128, index: 20, size: 1, value: 9 }
+testing part: ... ❌
+testing part: .9. ❌
+testing part: *.. ✅
+testing Number { line: 128, index: 22, size: 3, value: 786 }
+testing part: ..... ❌
+testing part: .786. ❌
+testing part: ...+. ✅
+testing Number { line: 128, index: 34, size: 3, value: 835 }
+testing part: ..... ❌
+testing part: .835. ❌
+testing part: ..... ❌
+testing Number { line: 128, index: 44, size: 3, value: 978 }
+testing part: ..*.. ✅
+testing Number { line: 128, index: 55, size: 3, value: 445 }
+testing part: ..*.. ✅
+testing Number { line: 128, index: 70, size: 3, value: 350 }
+testing part: ..... ❌
+testing part: .350. ❌
+testing part: ../.. ✅
+testing Number { line: 128, index: 81, size: 3, value: 860 }
+testing part: ..... ❌
+testing part: .860. ❌
+testing part: ....* ✅
+testing Number { line: 128, index: 86, size: 3, value: 662 }
+testing part: ...*. ✅
+testing Number { line: 128, index: 105, size: 3, value: 354 }
+testing part: .%... ✅
+testing Number { line: 128, index: 122, size: 3, value: 682 }
+testing part: ./... ✅
+testing Number { line: 129, index: 1, size: 3, value: 117 }
+testing part: ..... ❌
+testing part: .117. ❌
+testing part: ...*. ✅
+testing Number { line: 129, index: 6, size: 2, value: 57 }
+testing part: .... ❌
+testing part: .57+ ✅
+testing Number { line: 129, index: 13, size: 3, value: 441 }
+testing part: ..... ❌
+testing part: .441. ❌
+testing part: ...*. ✅
+testing Number { line: 129, index: 94, size: 2, value: 88 }
+testing part: ...# ✅
+testing Number { line: 129, index: 100, size: 3, value: 142 }
+testing part: .*... ✅
+testing Number { line: 129, index: 115, size: 3, value: 927 }
+testing part: ..*.. ✅
+testing Number { line: 130, index: 18, size: 3, value: 402 }
+testing part: ..*.. ✅
+testing Number { line: 130, index: 41, size: 3, value: 874 }
+testing part: ..... ❌
+testing part: .874. ❌
+testing part: ....= ✅
+testing Number { line: 130, index: 49, size: 3, value: 734 }
+testing part: ..... ❌
+testing part: .734. ❌
+testing part: ...*. ✅
+testing Number { line: 130, index: 53, size: 3, value: 926 }
+testing part: ..... ❌
+testing part: .926$ ✅
+testing Number { line: 130, index: 76, size: 3, value: 633 }
+testing part: ..... ❌
+testing part: *633. ✅
+testing Number { line: 130, index: 85, size: 3, value: 219 }
+testing part: *.... ✅
+testing Number { line: 130, index: 89, size: 2, value: 84 }
+testing part: .... ❌
+testing part: .84/ ✅
+testing Number { line: 130, index: 104, size: 3, value: 662 }
+testing part: ..... ❌
+testing part: .662. ❌
+testing part: $.... ✅
+testing Number { line: 130, index: 110, size: 3, value: 205 }
+testing part: ....% ✅
+testing Number { line: 130, index: 132, size: 3, value: 334 }
+testing part: ..... ❌
+testing part: .334. ❌
+testing part: ..... ❌
+testing Number { line: 131, index: 3, size: 3, value: 981 }
+testing part: .*... ✅
+testing Number { line: 131, index: 14, size: 3, value: 367 }
+testing part: ..*.. ✅
+testing Number { line: 131, index: 25, size: 3, value: 338 }
+testing part: ..... ❌
+testing part: .338. ❌
+testing part: ...=. ✅
+testing Number { line: 131, index: 31, size: 3, value: 332 }
+testing part: ..... ❌
+testing part: .332/ ✅
+testing Number { line: 131, index: 58, size: 3, value: 119 }
+testing part: ../.. ✅
+testing Number { line: 131, index: 65, size: 3, value: 375 }
+testing part: ..... ❌
+testing part: .375# ✅
+testing Number { line: 131, index: 70, size: 3, value: 334 }
+testing part: ..... ❌
+testing part: .334. ❌
+testing part: ...#. ✅
+testing Number { line: 131, index: 80, size: 3, value: 146 }
+testing part: ..... ❌
+testing part: .146. ❌
+testing part: ....- ✅
+testing Number { line: 131, index: 120, size: 3, value: 384 }
+testing part: ..... ❌
+testing part: .384. ❌
+testing part: ..... ❌
+testing Number { line: 131, index: 137, size: 3, value: 511 }
+testing part: .... ❌
+testing part: -511 ✅
+testing Number { line: 132, index: 8, size: 3, value: 165 }
+testing part: ..... ❌
+testing part: .165. ❌
+testing part: ....* ✅
+testing Number { line: 132, index: 48, size: 3, value: 666 }
+testing part: ....* ✅
+testing Number { line: 132, index: 75, size: 3, value: 614 }
+testing part: ..... ❌
+testing part: .614. ❌
+testing part: ...&. ✅
+testing Number { line: 132, index: 87, size: 3, value: 744 }
+testing part: ..... ❌
+testing part: %744. ✅
+testing Number { line: 132, index: 92, size: 3, value: 617 }
+testing part: ..... ❌
+testing part: .617. ❌
+testing part: ..*.. ✅
+testing Number { line: 132, index: 96, size: 3, value: 887 }
+testing part: ..%.. ✅
+testing Number { line: 132, index: 106, size: 3, value: 848 }
+testing part: ..... ❌
+testing part: .848* ✅
+testing Number { line: 133, index: 13, size: 3, value: 203 }
+testing part: ..... ❌
+testing part: .203. ❌
+testing part: .*... ✅
+testing Number { line: 133, index: 17, size: 3, value: 593 }
+testing part: ..... ❌
+testing part: .593. ❌
+testing part: ..*.. ✅
+testing Number { line: 133, index: 23, size: 3, value: 158 }
+testing part: ..... ❌
+testing part: .158. ❌
+testing part: .*... ✅
+testing Number { line: 133, index: 41, size: 3, value: 152 }
+testing part: ..... ❌
+testing part: .152. ❌
+testing part: *.... ✅
+testing Number { line: 133, index: 59, size: 3, value: 817 }
+testing part: ..... ❌
+testing part: +817. ✅
+testing Number { line: 133, index: 67, size: 3, value: 866 }
+testing part: ..... ❌
+testing part: .866. ❌
+testing part: ...*. ✅
+testing Number { line: 133, index: 110, size: 3, value: 904 }
+testing part: *.... ✅
+testing Number { line: 133, index: 121, size: 3, value: 701 }
+testing part: ..... ❌
+testing part: .701. ❌
+testing part: ...$. ✅
+testing Number { line: 133, index: 125, size: 3, value: 165 }
+testing part: ..... ❌
+testing part: .165. ❌
+testing part: ...*. ✅
+testing Number { line: 133, index: 129, size: 2, value: 80 }
+testing part: .... ❌
+testing part: .80. ❌
+testing part: .... ❌
+testing Number { line: 134, index: 0, size: 3, value: 404 }
+testing part: .... ❌
+testing part: 404. ❌
+testing part: .... ❌
+testing Number { line: 134, index: 5, size: 3, value: 977 }
+testing part: ..... ❌
+testing part: .977. ❌
+testing part: ..=.. ✅
+testing Number { line: 134, index: 9, size: 2, value: 93 }
+testing part: ...* ✅
+testing Number { line: 134, index: 27, size: 3, value: 396 }
+testing part: ....* ✅
+testing Number { line: 134, index: 31, size: 3, value: 281 }
+testing part: *.... ✅
+testing Number { line: 134, index: 45, size: 3, value: 953 }
+testing part: ..... ❌
+testing part: .953. ❌
+testing part: ...*. ✅
+testing Number { line: 134, index: 79, size: 3, value: 116 }
+testing part: ..... ❌
+testing part: .116. ❌
+testing part: .*... ✅
+testing Number { line: 134, index: 84, size: 2, value: 97 }
+testing part: .... ❌
+testing part: .97. ❌
+testing part: %... ✅
+testing Number { line: 134, index: 87, size: 2, value: 70 }
+testing part: .... ❌
+testing part: .70= ✅
+testing Number { line: 134, index: 92, size: 3, value: 179 }
+testing part: ..*.. ✅
+testing Number { line: 134, index: 99, size: 3, value: 107 }
+testing part: ..../ ✅
+testing Number { line: 134, index: 104, size: 3, value: 338 }
+testing part: ..... ❌
+testing part: .338. ❌
+testing part: .&... ✅
+testing Number { line: 134, index: 132, size: 3, value: 622 }
+testing part: ..... ❌
+testing part: .622. ❌
+testing part: ..*.. ✅
+testing Number { line: 135, index: 12, size: 3, value: 445 }
+testing part: ..*.. ✅
+testing Number { line: 135, index: 39, size: 3, value: 382 }
+testing part: ..*.. ✅
+testing Number { line: 135, index: 51, size: 3, value: 672 }
+testing part: ..*.. ✅
+testing Number { line: 135, index: 70, size: 3, value: 859 }
+testing part: *.... ✅
+testing Number { line: 135, index: 117, size: 3, value: 571 }
+testing part: ..... ❌
+testing part: .571. ❌
+testing part: ..*.. ✅
+testing Number { line: 135, index: 126, size: 3, value: 717 }
+testing part: ..*.. ✅
+testing Number { line: 136, index: 18, size: 3, value: 240 }
+testing part: ..... ❌
+testing part: .240. ❌
+testing part: *.... ✅
+testing Number { line: 136, index: 33, size: 3, value: 175 }
+testing part: ..... ❌
+testing part: .175. ❌
+testing part: ...*. ✅
+testing Number { line: 136, index: 46, size: 3, value: 808 }
+testing part: ..*.. ✅
+testing Number { line: 136, index: 63, size: 3, value: 225 }
+testing part: ..... ❌
+testing part: .225. ❌
+testing part: ...*. ✅
+testing Number { line: 136, index: 76, size: 3, value: 988 }
+testing part: ....* ✅
+testing Number { line: 136, index: 92, size: 3, value: 604 }
+testing part: ..... ❌
+testing part: /604. ✅
+testing Number { line: 136, index: 109, size: 3, value: 232 }
+testing part: ..... ❌
+testing part: .232. ❌
+testing part: ..... ❌
+testing Number { line: 136, index: 113, size: 3, value: 448 }
+testing part: ...-. ✅
+testing Number { line: 136, index: 121, size: 3, value: 651 }
+testing part: ..... ❌
+testing part: .651. ❌
+testing part: ....@ ✅
+testing Number { line: 136, index: 130, size: 3, value: 769 }
+testing part: ....* ✅
+testing Number { line: 137, index: 9, size: 3, value: 569 }
+testing part: ..... ❌
+testing part: .569* ✅
+testing Number { line: 137, index: 26, size: 3, value: 975 }
+testing part: ..... ❌
+testing part: .975* ✅
+testing Number { line: 137, index: 40, size: 3, value: 968 }
+testing part: ..... ❌
+testing part: .968. ❌
+testing part: .%... ✅
+testing Number { line: 137, index: 57, size: 3, value: 585 }
+testing part: ..... ❌
+testing part: .585. ❌
+testing part: ..... ❌
+testing Number { line: 137, index: 82, size: 2, value: 26 }
+testing part: .... ❌
+testing part: .26. ❌
+testing part: .... ❌
+testing Number { line: 137, index: 117, size: 3, value: 394 }
+testing part: ..*.. ✅
+testing Number { line: 137, index: 126, size: 3, value: 142 }
+testing part: ..... ❌
+testing part: .142. ❌
+testing part: ..... ❌
+testing Number { line: 138, index: 13, size: 3, value: 498 }
+testing part: *.... ✅
+testing Number { line: 138, index: 18, size: 3, value: 969 }
+testing part: *.... ✅
+testing Number { line: 138, index: 30, size: 3, value: 360 }
+testing part: *.... ✅
+testing Number { line: 138, index: 34, size: 3, value: 666 }
+testing part: ..*.. ✅
+testing Number { line: 138, index: 66, size: 3, value: 919 }
+testing part: *.... ✅
+testing Number { line: 138, index: 76, size: 3, value: 360 }
+testing part: ..... ❌
+testing part: .360. ❌
+testing part: ..... ❌
+testing Number { line: 138, index: 135, size: 3, value: 484 }
+testing part: ..... ❌
+testing part: .484. ❌
+testing part: ..... ❌
+testing Number { line: 139, index: 3, size: 3, value: 407 }
+testing part: ....* ✅
+testing Number { line: 139, index: 22, size: 3, value: 886 }
+testing part: ..... ❌
+testing part: .886. ❌
+testing Number { line: 139, index: 60, size: 2, value: 84 }
+testing part: .... ❌
+testing part: .84. ❌
+testing Number { line: 139, index: 84, size: 3, value: 933 }
+testing part: ....- ✅
+testing Number { line: 139, index: 90, size: 3, value: 101 }
+testing part: *.... ✅
+testing Number { line: 139, index: 97, size: 2, value: 58 }
+testing part: ...% ✅
+testing Number { line: 139, index: 107, size: 3, value: 839 }
+testing part: ..... ❌
+testing part: .839. ❌
+testing Number { line: 139, index: 112, size: 3, value: 425 }
+testing part: ..... ❌
+testing part: .425. ❌
+Part1 result: 539590
