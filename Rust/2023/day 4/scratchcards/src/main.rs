@@ -1,10 +1,11 @@
 use std::fs;
 
 // had a diffrent Idea in mind at first
-use std::collections::HashMap;
+// use std::collections::HashMap;
 
+#[derive(Debug)]
 struct ScratchCards {
-    id: u32,
+    amount: u32,
     points: u32
 }
 
@@ -50,14 +51,14 @@ fn analyze_part1(input: &str) -> u32{
 
 fn analyze_part2(input: &str)  -> u32{
     let mut sum = 0;
-    let mut cards = HashMap::new();
+    let mut cards = Vec::new();
 
     for line in input.lines(){
         //println!("new line: {line}");
         let line: Vec<&str> = line.split(": ").collect();
         let numbers: Vec<&str> = line[1].split(" | ").collect();
 
-        let game_id: u32 = line[0].split_whitespace().collect::<Vec<&str>>()[1].parse().expect("should be a number");
+        //let game_id: u32 = line[0].split_whitespace().collect::<Vec<&str>>()[1].parse().expect("should be a number");
 
         let mut winning_numbers: Vec<u32> = Vec::new();
         for winning_number_string in numbers[0].split_whitespace().collect::<Vec<&str>>(){
@@ -75,26 +76,34 @@ fn analyze_part2(input: &str)  -> u32{
             }
         }
 
-        cards.insert(game_id, ScratchCards{id: game_id, points});
+        cards.push(ScratchCards{amount: 1, points});
     }
 
     //sum += cards.len() as u32;
-    for card in &cards.values().collect::<Vec<_>>() {
-        add_copy_number(&mut sum, card, &cards);
-    }
-    sum
-}
+    for i in 0..cards.len() {
+        let card = cards.get(i).expect("like c'mon");
 
-fn add_copy_number(amount: &mut u32, card: &ScratchCards, cards: &HashMap<u32,ScratchCards>){
-    let id = card.id;
-    let win = card.points;
-    //println!("{id} won {win}");
-    for new in id+1..=id+win{
-        if let Some(card) = cards.get(&new){
-            //println!("{id}. won the {}th", new);
-            add_copy_number(amount, card, &cards)
+        println!("{}.: {card:?}",i+1);
+        let amount = card.amount;
+        sum += amount;
+        for i in i+1..=i+card.points as usize{
+            if let Some(copy_card) = cards.get_mut(i) {
+                copy_card.amount += amount;
+            }
         }
     }
-    *amount += 1;
-    //println!();
+
+
+    //for fun
+
+    let mut max = cards[0].amount;
+    for card_amounts in &cards[1..].iter().map(|f| f.amount).collect::<Vec<u32>>() {
+        if &max < card_amounts {max = *card_amounts}
+    }
+    println!("the maximum amount of one card: {max}");
+
+
+
+    //for fun end
+    sum
 }
