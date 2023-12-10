@@ -1,4 +1,4 @@
-use std::{fs, vec};
+use std::fs;
 
 mod part2;
 
